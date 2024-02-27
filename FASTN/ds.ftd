@@ -19,7 +19,7 @@ optional ftd.raw-image-src document-image:
 optional string site-name: fastn template
 optional ftd.image-src site-logo: $site-logo
 boolean github-icon: false
-optional string github-url: 
+optional string github-url:
 boolean full-width: false
 ftd.type-data typography: $typo.types
 ftd.color-scheme color-scheme: $cs.main
@@ -36,12 +36,12 @@ optional ftd.raw-image-src favicon:
 
 -- ftd.ui list page.footer:
 
--- footer.fastn-footer:
-copyright: Copyright © 2023 - meenukumari28.github.io/magic-purple
-site-logo: $common.fastn-logo
-powered-by-text: Powered by
-powered-by-link: https://fastn.com/
-
+	-- footer.fastn-footer:
+	copyright: Copyright © 2023 - meenukumari28.github.io/magic-purple
+	site-logo: $common.fastn-logo
+	powered-by-text: Powered by
+	powered-by-link: https://fastn.com/
+	
 -- end: page.footer
 
 -- doc-site.page: $page.title
@@ -69,12 +69,12 @@ login-button: $page.login-button
 site-url: $page.site-url
 favicon: $page.favicon
 
--- ftd.column:
-spacing.fixed.em: 0.8
-width: fill-container
-children: $page.wrapper
-
--- end: ftd.column
+	-- ftd.column:
+	spacing.fixed.em: 0.8
+	width: fill-container
+	children: $page.wrapper
+	
+	-- end: ftd.column
 
 -- end: doc-site.page
 

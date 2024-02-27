@@ -1,0 +1,12 @@
+-- lib.page:
+
+-- ds.heading-hero: Github
+
+-- ftd.text:
+
+Spellcraft's source code is available on Github.
+
+-- ds.link: Repo
+link: https://github.com/xypnox/spellcraft
+
+-- end: lib.page

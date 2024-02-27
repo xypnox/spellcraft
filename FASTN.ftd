@@ -16,31 +16,37 @@ provided-via: meenukumari28.github.io/magic-purple/ds
 
 
 -- fastn.sitemap:
+;; This is the sidebar that shows the sitemap
 
 # Documentation: /
 
 - Getting started:
-  - Quickstart: /sidebar/
-  - Development: 
-   	- react: 
-   	- NodJs: 
-   	- Java: 
+  - Quickstart: /
+  - Fifthtry: /
 
 - Styling:
-  - Global Settings: 
-   	- Sub part: 
-   	- Account and support:
+  - Global Settings:
 
   - Navigation:
   - Custom Styling:
-    - Test:
 
   - CTAs and Footers:
 
 - Overview:
 
-# About Us: /
+# Sample: /api-docs/getting-started
 
-# Learn: /
+- Getting started: /api-docs/getting-started
+  - Quickstart: 
+  - Development:
+    - react:
+    - NodJs:
+    - Java:
 
-# Careers: /
+# Contributing: /contributing/guide
+
+- Github: /contributing/github
+- Code of Conduct: /
+
+
+# Reference: /reference/

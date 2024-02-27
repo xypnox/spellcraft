@@ -4,7 +4,7 @@
 
 -- boolean show-footer: true
 
--- ftd.image-src site-logo: $assets.files.assets.ipsum-logo.svg
+-- ftd.image-src site-logo: $assets.files.assets.spellcraft.svg
 
 -- string site-url: index.html
 
