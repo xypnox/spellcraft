@@ -1,0 +1,264 @@
+-- import: meenukumari28.github.io/magic-purple/header
+-- import: fastn/processors as pr
+
+-- component page:
+optional caption title:
+ftd.image-src site-logo: $common.site-logo 
+string site-url: $common.site-url
+optional string site-name:
+pr.toc-item list toc: $common.sitemap.toc
+pr.toc-item list sections: $common.sitemap.sections
+pr.toc-item list sub-sections: $common.sitemap.subsections
+optional pr.toc-item current-section: $common.sitemap.current-section
+optional pr.toc-item current-subsection: $common.sitemap.current-subsection
+optional pr.toc-item current-page: $common.sitemap.current-page
+children wrapper:
+boolean sidebar: false
+boolean breadcrumb: true
+ds.flush flush: to-header
+
+-- ds.page:
+
+-- ds.section-column:
+align-content: left
+inset: $ds.spaces.inset-wide.small
+
+-- header.header:
+sections: $page.sections
+sub-sections: $page.sub-sections
+current-section: $page.current-section
+current-subsection: $page.current-subsection
+current-page: $page.current-page
+toc: $page.toc
+site-logo: $page.site-logo
+site-url: $page.site-url
+site-name: $page.site-name
+breadcrumb: $page.breadcrumb
+
+-- ds.row:
+align-content: top-left
+
+-- render-toc:
+if: { !ftd.is_empty(page.toc) }
+toc-obj: $page.toc
+
+-- ds.column:
+align-content: left
+inset: $ds.spaces.inset-tall.zero-medium
+spacing: $ds.spaces.vertical-gap.large
+
+-- ds.row:
+if: { page.current-section != NULL }
+spacing: $ds.spaces.horizontal-gap.small
+inset: $ds.spaces.inset-wide.medium-zero
+align-content: left
+
+-- ftd.image:
+src: $assets.files.assets.home.svg
+align-self: center
+
+-- ftd.image:
+src: $assets.files.assets.right.svg
+align-self: center
+
+-- ds.link: $page.current-section.title
+if: { page.current-section.title != NULL }
+color: $inherited.colors.text-strong
+;;color if { page.current-subsection == NULL }: $inherited.colors.accent.primary
+link: $page.current-section.url
+align: center
+
+-- ftd.image:
+if: { page.current-page != NULL }
+src: $assets.files.assets.right.svg
+align-self: center
+
+-- ftd.text: $page.current-page.title 
+if: { page.current-page != NULL }
+role: $inherited.types.label-large
+color: $inherited.colors.accent.primary
+link: $page.current-page.url 
+white-space: nowrap
+align-self: center
+
+-- end: ds.row
+
+-- ds.column:
+content: $page.wrapper
+align-content: top-left
+inset: $ds.spaces.inset-wide.medium-zero
+
+-- end: ds.column
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: ds.page
+
+-- end: page
+
+
+
+
+
+
+
+
+
+
+-- component render-toc:
+pr.toc-item list toc-obj:
+
+-- ds.column:
+width.fixed.px: 320
+height.fixed.calc: 100vh
+align-content: top-left
+inset: $ds.spaces.inset-tall.zero-medium
+spacing: $ds.spaces.vertical-gap.medium
+border: $ds.borders.right.small
+radius: $ds.radius.zero
+
+-- toc-instance:
+for: $obj in $render-toc.toc-obj
+toc: $obj
+
+-- end: ds.column
+
+-- end: render-toc
+
+
+
+
+
+
+
+
+
+
+-- component toc-instance:
+pr.toc-item toc:
+pr.toc-item $toc-clone: *$toc-instance.toc
+
+-- ds.column:
+spacing: $ds.spaces.horizontal-gap.small
+inset: $ds.spaces.inset-wide.small-zero
+
+-- ds.row:
+spacing: $ds.spaces.horizontal-gap.space-between
+$on-click$: $ftd.toggle($a = $toc-instance.toc-clone.is-open)
+
+-- ds.copy-regular: $toc-instance.toc.title
+link if { toc-instance.toc.url != NULL }: $toc-instance.toc.url
+color: $inherited.colors.text-strong
+width: fill-container
+style: bold
+
+-- ftd.image:
+if: { !ftd.is_empty(toc-instance.toc.children) }
+src: $assets.files.assets.down.svg
+src if { !toc-instance.toc-clone.is-open }: $assets.files.assets.right.svg
+align-self: center
+
+-- end: ds.row
+
+-- ds.column:
+if: { !ftd.is_empty(toc-instance.toc.children) && toc-instance.toc-clone.is-open }
+spacing: $ds.spaces.vertical-gap.medium
+align-content: left
+
+-- childrens:
+for: $obj in $toc-instance.toc.children
+toc: $obj
+
+-- end: ds.column
+
+-- end: ds.column
+
+-- end: toc-instance
+
+
+
+
+
+
+
+
+
+
+-- component childrens:
+pr.toc-item toc:
+pr.toc-item $toc-clone: *$childrens.toc
+
+-- ds.column:
+align-content: left
+spacing: $ds.spaces.vertical-gap.medium
+
+-- ds.row:
+spacing: $ds.spaces.horizontal-gap.space-between
+$on-click$: $ftd.toggle($a = $childrens.toc-clone.is-open)
+
+-- ds.copy-small:
+link if { childrens.toc.url != NULL }: $childrens.toc.url
+text: $childrens.toc.title
+color: $inherited.colors.text-strong
+
+-- ftd.image:
+if: { !ftd.is_empty(childrens.toc.children) }
+src: $assets.files.assets.down.svg
+src if { !childrens.toc-clone.is-open }: $assets.files.assets.right.svg
+align-self: center
+
+-- end: ds.row
+
+-- ds.column:
+if: {!ftd.is_empty(childrens.toc.children) && childrens.toc-clone.is-open }
+spacing: $ds.spaces.vertical-gap.medium
+inset: $ds.spaces.inset-wide.medium-zero
+
+-- child-of-childrens:
+$loop$: $childrens.toc.children as $obj
+toc: $obj
+
+-- end: ds.column
+
+-- end: ds.column
+
+-- end: childrens
+
+
+
+
+
+
+
+
+
+
+-- component child-of-childrens:
+pr.toc-item toc:
+
+-- ds.column:
+align-content: left
+
+-- ftd.text:
+link if { child-of-childrens.toc.url != NULL }: $child-of-childrens.toc.url
+text: $child-of-childrens.toc.title
+role: $inherited.types.copy-small
+color: $inherited.colors.text-strong
+
+-- ds.column:
+;;if: { !ftd.is_empty(child-of-childrens.toc.children) }
+width: fill-container
+
+-- child-of-childrens:
+$loop$: $child-of-childrens.toc.children as $obj
+toc: $obj
+
+-- end: ds.column
+
+-- end: ds.column
+
+-- end: child-of-childrens

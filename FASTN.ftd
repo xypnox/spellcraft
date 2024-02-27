@@ -3,17 +3,44 @@
 -- fastn.package: meenukumari28.github.io/magic-purple
 favicon: /-/meenukumari28.github.io/magic-purple/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/design-system
+provided-via: meenukumari28.github.io/magic-purple/ds
+
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
 
--- fastn.auto-import: meenukumari28.github.io/magic-purple/FASTN/ds
+-- fastn.auto-import: meenukumari28.github.io/magic-purple/ds
 -- fastn.auto-import: meenukumari28.github.io/magic-purple/assets
--- fastn.auto-import: doc-site
+-- fastn.auto-import: meenukumari28.github.io/magic-purple/common
+-- fastn.auto-import: meenukumari28.github.io/magic-purple/lib as lib
+
 
 -- fastn.sitemap:
 
-# Home: index.html
+# Documentation: /
 
-- Right Sidebar Sample: /sidebar/
+- Getting started:
+  - Quickstart: /sidebar/
+  - Development: 
+   	- react: 
+   	- NodJs: 
+   	- Java: 
+
+- Styling:
+  - Global Settings: 
+   	- Sub part: 
+   	- Account and support:
+
+  - Navigation:
+  - Custom Styling:
+    - Test:
+
+  - CTAs and Footers:
+
+- Overview:
+
+# About Us: /
+
+# Learn: /
+
+# Careers: /
