@@ -1,18 +1,22 @@
 -- import: fastn
 
--- fastn.package: meenukumari28.github.io/magic-purple
-favicon: /-/meenukumari28.github.io/magic-purple/favicon.ico
+-- fastn.package: xypnox.github.io/spellcraft
+favicon: /-/xypnox.github.io/spellcraft/favicon.ico
 
 -- fastn.dependency: fastn-community.github.io/design-system
-provided-via: meenukumari28.github.io/magic-purple/ds
+provided-via: xypnox.github.io/spellcraft/ds
 
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
+provided-via: xypnox.github.io/spellcraft/colors.ftd
 
--- fastn.auto-import: meenukumari28.github.io/magic-purple/ds
--- fastn.auto-import: meenukumari28.github.io/magic-purple/assets
--- fastn.auto-import: meenukumari28.github.io/magic-purple/common
--- fastn.auto-import: meenukumari28.github.io/magic-purple/lib as lib
+-- fastn.dependency: fastn-community.github.io/dark-mode-switcher as dms
+
+-- fastn.auto-import: xypnox.github.io/spellcraft/ds
+-- fastn.auto-import: xypnox.github.io/spellcraft/assets
+-- fastn.auto-import: xypnox.github.io/spellcraft/common
+-- fastn.auto-import: xypnox.github.io/spellcraft/lib as lib
+-- fastn.auto-import: fastn-community.github.io/svg-icons/phosphor as ph
 
 
 -- fastn.sitemap:

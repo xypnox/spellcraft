@@ -1,5 +1,6 @@
--- import: meenukumari28.github.io/magic-purple/header
+-- import: xypnox.github.io/spellcraft/header
 -- import: fastn/processors as pr
+-- import: fastn-community.github.io/dark-mode-switcher as dms
 
 -- component page:
 optional caption title:
@@ -94,6 +95,9 @@ ds.flush flush: to-header
 		-- end: ds.row
 
 	-- end: ds.section-column
+
+
+  -- dms.dark-mode-switcher-float:
 
 -- end: ds.page
 

@@ -37,7 +37,7 @@ optional ftd.raw-image-src favicon:
 -- ftd.ui list page.footer:
 
 	-- footer.fastn-footer:
-	copyright: Copyright © 2023 - meenukumari28.github.io/magic-purple
+	copyright: Copyright © 2023 - xypnox.github.io/spellcraft
 	site-logo: $common.fastn-logo
 	powered-by-text: Powered by
 	powered-by-link: https://fastn.com/
