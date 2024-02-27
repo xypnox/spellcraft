@@ -6,7 +6,7 @@
 
 -- ftd.image-src site-logo: $assets.files.assets.spellcraft.svg
 
--- string site-url: index.html
+-- string site-url: /
 
 -- pr.sitemap-data sitemap:
 $processor$: pr.sitemap

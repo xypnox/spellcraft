@@ -97,8 +97,8 @@ ds.flush flush: to-header
 	-- end: ds.section-column
 
 
-  -- dms.dark-mode-switcher-float:
-
+	-- dms.dark-mode-switcher-float:
+	
 -- end: ds.page
 
 -- end: page

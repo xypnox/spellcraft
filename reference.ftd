@@ -3,7 +3,7 @@
 
 ;; We will implement reference for the following components
 
-;; borders, button, icon-button, primary-button, secondary-button, circle-text-button, phosphor-icon-button, inline-row, footer-link, copyright-text, page-widths, header-link, page, heading-hero, heading-large, heading-medium, heading-small, heading-tiny, copy-large, copy-regular, copy-small, fine-print, source-code, link, section-row, section-column, column, element-radius, radius, row, flush, gap, hv, spaces, border-data, border-bottom, alert, container, text-input, danger-button, checkbox, link-button, floater
+;; borders, button, icon-button, primary-button, secondary-button, phosphor-icon-button, inline-row, footer-link, copyright-text, page-widths, header-link, page, heading-hero, heading-large, heading-medium, heading-small, heading-tiny, copy-large, copy-regular, copy-small, fine-print, source-code, link, section-row, section-column, column, element-radius, radius, row, flush, gap, hv, spaces, border-data, border-bottom, alert, container, text-input, danger-button, checkbox, link-button, floater
 
 
 
@@ -21,6 +21,7 @@ spacing: $ds.spaces.vertical-gap.medium
 	
 	-- ds.section-column:
 	align-content: left
+	 spacing: $ds.spaces.vertical-gap.medium
 	
 		-- ds.heading-hero: heading-hero
 		-- ds.heading-large: heading-large
@@ -37,36 +38,75 @@ spacing: $ds.spaces.vertical-gap.medium
 	-- end: ds.section-column
 
 	;;
-	-- ds.heading-large: Buttons and Linsk
-	
-	-- ds.link: link
-	link: https://www.google.com
-	
-	-- ds.primary-button: primary-button
-	link: https://www.google.com
-	
-	-- ds.secondary-button: secondary-button
-	
-	-- ds.circle-text-button: circle-text-button
-	
-	-- ds.phosphor-icon-button: phosphor-icon-button
-	icon: search
-	
-	-- ds.inline-row: inline-row
-	
-	-- ds.footer-link: footer-link
-	link: /about
-	
-	-- ds.header-link: header-link
-	link: /about
+	-- ds.heading-large: Buttons and Links
 	
 	
-	-- ds.section-row: section-row
+	-- ds.section-column:
+	align-content: left
+	spacing: $ds.spaces.vertical-gap.medium
 	
-	-- end: ds.section-row
+		-- ds.row:
+		spacing: $ds.spaces.horizontal-gap.small
+		
+			-- ds.copy-regular: link-button
+			color: $inherited.colors.accent.primary
+			link: /about
+			
+			-- ds.link: link
+			link: /about
+			
+		-- end: ds.row
 
+
+		-- ds.row:
+		spacing: $ds.spaces.horizontal-gap.small
+		
+			-- ds.primary-button: primary-button
+			
+			-- ds.primary-button: primary-button link
+			link: https://www.google.com
+			
+		-- end: ds.row
+
+		-- ds.row:
+		spacing: $ds.spaces.horizontal-gap.small
+		
+			-- ds.secondary-button: secondary-button
+			
+			-- ds.secondary-button: secondary-button link
+			link: https://www.google.com
+			
+		-- end: ds.row
+
+
+		-- ds.phosphor-icon-button: phosphor-icon-button
+		icon: search
+		
+		-- ds.inline-row: inline-row
+		
+		-- ds.footer-link: footer-link
+		link: /about
+		
+		-- ds.header-link: header-link
+		link: /about
+		
+		
+		-- ds.section-row: section-row
+		
+		-- end: ds.section-row
+
+	-- end: ds.section-column
+
+	-- ds.section-column:
+	align-content: left
+	
+		-- ds.heading-large: Colors
+		
+	-- end: ds.section-column
 
 -- end: ds.section-column
+
+
 
 
 -- end: lib.page

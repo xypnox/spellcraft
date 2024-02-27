@@ -7,8 +7,6 @@ favicon: /-/xypnox.github.io/spellcraft/favicon.ico
 provided-via: xypnox.github.io/spellcraft/ds
 
 -- fastn.dependency: fastn-community.github.io/roboto-typography
--- fastn.dependency: fastn-community.github.io/dark-flame-cs
-provided-via: xypnox.github.io/spellcraft/colors.ftd
 
 -- fastn.dependency: fastn-community.github.io/dark-mode-switcher as dms
 
@@ -41,7 +39,7 @@ provided-via: xypnox.github.io/spellcraft/colors.ftd
 # Sample: /api-docs/getting-started
 
 - Getting started: /api-docs/getting-started
-  - Quickstart: 
+  - Quickstart:
   - Development:
     - react:
     - NodJs:
