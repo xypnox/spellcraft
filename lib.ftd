@@ -6,7 +6,7 @@
 optional caption title:
 ftd.image-src site-logo: $common.site-logo
 string site-url: $common.site-url
-optional string site-name:
+string site-name: $common.site-name
 pr.toc-item list toc: $common.sitemap.toc
 pr.toc-item list sections: $common.sitemap.sections
 pr.toc-item list sub-sections: $common.sitemap.subsections

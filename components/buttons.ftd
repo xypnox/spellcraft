@@ -1,0 +1,12 @@
+-- component searchbutton:
+
+-- ds.row: 
+align-content: left
+inset: $ds.spaces.inset-wide.small
+radius: $ds.radius.small
+
+-- ftd.text: Search
+
+-- end: ds.row
+
+-- end: searchbutton

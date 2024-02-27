@@ -11,6 +11,7 @@ spacing: $ds.spaces.vertical-gap.large
 	src: $assets.files.assets.sampleImage.png
 	 width.fixed.percent: 100
 	 height.fixed.px: 200
+   ;; object-fit.cover: true
 	border-radius.px: 20
 	
 	-- ds.column:
