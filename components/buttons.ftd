@@ -1,11 +1,21 @@
+-- import: fastn-community.github.io/svg-icons/phosphor as ph
+
 -- component searchbutton:
 
 -- ds.row: 
 align-content: left
-inset: $ds.spaces.inset-wide.small
+inset: $ds.spaces.inset-wide.medium
 radius: $ds.radius.small
+width.fixed.em: 20
+background.solid: $inherited.colors.background.step-1
+border: $ds.borders.uniform.small
+border-color: $ds.colors.border
+link: /search
 
--- ftd.text: Search
+-- ph.regular: magnifying-glass
+size: 16
+
+-- ds.copy-regular: Search
 
 -- end: ds.row
 

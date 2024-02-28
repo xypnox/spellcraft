@@ -1,0 +1,32 @@
+-- lib.page: Quickstart
+
+-- ds.section-column:
+align-content: left
+spacing: $ds.spaces.vertical-gap.large
+
+
+	-- ds.heading-large: Quickstart
+	
+	-- ftd.image:
+	src: $assets.files.assets.sampleImage.png
+	 width.fixed.percent: 100
+	 height.fixed.px: 200
+  fit: cover
+	border-radius.px: 20
+	
+	-- ds.column:
+	align-content: left
+	spacing: $ds.spaces.vertical-gap.medium
+	
+		-- ds.heading-large: Installation
+		
+		-- ds.copy-regular:
+		
+		You can clone the theme template and run your site locally or build and manage your site with [fastn](https://fastn.com).
+		
+		
+		
+	-- end: ds.column
+-- end: ds.section-column
+
+-- end: lib.page

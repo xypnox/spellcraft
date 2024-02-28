@@ -214,8 +214,8 @@ text-disabled: $text-disabled-
 border-disabled: $border-disabled-
 
 -- ftd.color accent-primary-:
-light: #2dd4bf
-dark: #2dd4bf
+light: #6F34E8
+dark: #a071ff
 
 -- ftd.color accent-secondary-:
 light: #4fb2df

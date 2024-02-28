@@ -1,17 +1,20 @@
--- lib.page:
+-- lib.page: Spell Craft
+breadcrumb: false
+
+-- hero:
 
 -- ds.section-column:
 align-content: left
 spacing: $ds.spaces.vertical-gap.large
 
 
-	-- ds.heading-hero: Spellcast
+	-- ds.heading-hero: Spellcraft
 	
 	-- ftd.image:
 	src: $assets.files.assets.sampleImage.png
 	 width.fixed.percent: 100
 	 height.fixed.px: 200
-   ;; object-fit.cover: true
+  fit: cover
 	border-radius.px: 20
 	
 	-- ds.column:
@@ -22,7 +25,7 @@ spacing: $ds.spaces.vertical-gap.large
 		
 		-- ds.copy-regular:
 		
-		Spellcast is a template for fastn, a static site generator. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website.
+		Spellcraft is a template for fastn, a static site generator. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website.
 		
 		
 		
@@ -30,3 +33,49 @@ spacing: $ds.spaces.vertical-gap.large
 -- end: ds.section-column
 
 -- end: lib.page
+
+
+
+-- component hero:
+
+-- ds.column:
+
+  -- ds.section-row: 
+  margin: $ds.spaces.vertical-gap.extra-extra-large
+  
+    -- ds.column: 
+    align-content: left
+    
+      -- ds.heading-tiny: Spellcraft
+
+      -- ds.column:
+      align-content: left
+      spacing: $ds.spaces.vertical-gap.zero
+        -- ds.heading-hero: Make your documentation 
+        -- ds.heading-hero: _magical_
+        color: $inherited.colors.primary
+      -- end: ds.column
+      
+      -- ds.copy-large: Spellcraft is a fastn template for fifthtry. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website.
+      
+        -- ds.phosphor-icon-button: Get started
+        link: /docs/quickstart
+        icon: caret-right
+        icon-position: at-end
+        size: large
+        
+
+    -- end: ds.column
+
+    -- ds.column:
+      -- ftd.image: $assets.files.assets.logo.svg
+      width: fill-container
+    -- end: ds.column
+
+  -- end: ds.section-row
+
+-- end: ds.column
+
+-- end: hero
+
+

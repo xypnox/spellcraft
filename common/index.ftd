@@ -4,7 +4,7 @@
 
 -- boolean show-footer: true
 
--- ftd.image-src site-logo: $assets.files.assets.spellcraft.svg
+-- ftd.image-src site-logo: $assets.files.assets.logo.svg
 
 -- string site-url: /
 

@@ -30,12 +30,14 @@ boolean breadcrumb: true
 inner-background.solid: $inherited.colors.background.base
 border: $ds.borders.bottom.small
 margin: $ds.spaces.vertical-gap.zero
+inset:
 radius: $ds.radius.zero
 align-content: left
 ;;shadow: $ds.shadow.medium
 
 	-- ds.row:
 	spacing: $ds.spaces.horizontal-gap.extra-large
+	inset: $ds.spaces.inset-tall.zero-small
 	
 		-- ds.row:
 		width: hug-content
@@ -43,8 +45,9 @@ align-content: left
 		align-content: left
 		
 			-- ftd.image:
-      width: hug-content
-			src: $assets.files.assets.logo.svg
+			src: $assets.files.assets.spellcraft.svg
+			width.fixed.percent: 32
+			height.fixed.px: 32
 			
 			-- ds.heading-small: $header.site-name
 			
@@ -53,8 +56,6 @@ align-content: left
 		-- ds.row:
 		align-content: left
 		spacing: $ds.spaces.horizontal-gap.medium
-    border: $ds.borders.top.medium
-    border-color: $inherited.colors.background.base
 		
 			-- header-item: $obj.title
 			$loop$: $header.sections as $obj
@@ -66,9 +67,11 @@ align-content: left
 		-- ds.row:
 		spacing: $ds.spaces.horizontal-gap.small
 		align-content: right
-    width: hug-content
 		
 			-- btn.searchbutton:
+			
+			-- ds.primary-button: Get Started
+			link: /
 			
 		-- end: ds.row
 
@@ -106,11 +109,6 @@ boolean $open: false
 -- ds.row:
 width: hug-content
 spacing: $ds.spaces.horizontal-gap.medium
-inset: $ds.spaces.inset-tall.zero-small
-border: $ds.borders.bottom.medium
-border-color: $inherited.colors.background.base
-border-color if { header-item.is-active }: $inherited.colors.accent.primary
-radius: $ds.radius.zero
 
 	-- ds.copy-regular: $header-item.title
 	if: { !header-item.is-active }
@@ -119,7 +117,8 @@ radius: $ds.radius.zero
 	-- ds.copy-regular: $header-item.title
 	if: { header-item.is-active }
 	link if { header-item.link != NULL }: $header-item.link
-	color: $inherited.colors.accent.primary
+	color: $inherited.colors.text-strong
+	style: bold
 	
 -- end: ds.row
 

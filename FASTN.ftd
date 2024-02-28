@@ -7,24 +7,23 @@ favicon: /-/xypnox.github.io/spellcraft/favicon.ico
 provided-via: xypnox.github.io/spellcraft/ds
 
 -- fastn.dependency: fastn-community.github.io/roboto-typography
-
 -- fastn.dependency: fastn-community.github.io/dark-mode-switcher as dms
+-- fastn.dependency: fastn-community.github.io/svg-icons 
 
 -- fastn.auto-import: xypnox.github.io/spellcraft/ds
 -- fastn.auto-import: xypnox.github.io/spellcraft/assets
 -- fastn.auto-import: xypnox.github.io/spellcraft/common
 -- fastn.auto-import: xypnox.github.io/spellcraft/lib as lib
--- fastn.auto-import: fastn-community.github.io/svg-icons/phosphor as ph
 
 
 -- fastn.sitemap:
 ;; This is the sidebar that shows the sitemap
 
-# Documentation: /
+# Documentation: /docs/quickstart
 
 - Getting started:
-  - Quickstart: /
-  - Fifthtry: /
+  - Quickstart: /docs/quickstart
+  - Fifthtry: /docs/fifthtry
 
 - Styling:
   - Global Settings:
@@ -33,6 +32,12 @@ provided-via: xypnox.github.io/spellcraft/ds
   - Custom Styling:
 
   - CTAs and Footers:
+
+  - Components:
+    
+    - Buttons:
+    - Cards:
+    - Forms:
 
 - Overview:
 
@@ -48,7 +53,7 @@ provided-via: xypnox.github.io/spellcraft/ds
 # Contributing: /contributing/guide
 
 - Github: /contributing/github
-- Code of Conduct: /
+- Code of Conduct: /contributing/code-of-conduct
 
 
 # Reference: /reference/
