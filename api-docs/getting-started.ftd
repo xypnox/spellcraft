@@ -1,0 +1,12 @@
+-- lib.page: Getting Started
+
+-- ds.heading-hero: Getting Started
+
+-- ds.copy-regular:
+
+Start with the [installation](#installation) and then move on to the [usage](#usage) section to get started with Spellcraft.
+
+-- ds.link: Repo
+link: https://github.com/xypnox/spellcraft
+
+-- end: lib.page

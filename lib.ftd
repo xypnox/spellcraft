@@ -1,0 +1,201 @@
+-- import: xypnox.github.io/spellcraft/header
+-- import: fastn/processors as pr
+-- import: fastn-community.github.io/dark-mode-switcher as dms
+-- import: fastn-community.github.io/svg-icons/phosphor as ph
+
+-- component page:
+caption title:
+ftd.image-src site-logo: $common.site-logo
+string site-url: $common.site-url
+string site-name: $common.site-name
+pr.toc-item list toc: $common.sitemap.toc
+pr.toc-item list sections: $common.sitemap.sections
+pr.toc-item list sub-sections: $common.sitemap.subsections
+optional pr.toc-item current-section: $common.sitemap.current-section
+optional pr.toc-item current-subsection: $common.sitemap.current-subsection
+optional pr.toc-item current-page: $common.sitemap.current-page
+children wrapper:
+boolean sidebar: true
+boolean breadcrumb: true
+ds.flush flush: to-header
+
+-- ds.page:
+  title: $page.title
+
+	-- ds.section-column:
+  spacing: $ds.spaces.vertical-gap.zero
+  inset: $ds.spaces.inset-wide.medium-zero
+	align-content: left
+	
+		-- header.header:
+		sections: $page.sections
+		sub-sections: $page.sub-sections
+		current-section: $page.current-section
+		current-subsection: $page.current-subsection
+		current-page: $page.current-page
+		toc: $page.toc
+		site-logo: $page.site-logo
+		site-url: $page.site-url
+		site-name: $page.site-name
+		breadcrumb: $page.breadcrumb
+		
+		-- ds.row:
+		align-content: top-left
+    spacing: $ds.spaces.vertical-gap.large
+		
+			-- render-toc:
+			if: { !ftd.is_empty(page.toc) }
+			toc-obj: $page.toc
+			
+			-- ds.column:
+			align-content: left
+			inset: $ds.spaces.inset-tall.zero-medium
+			spacing: $ds.spaces.vertical-gap.large
+			
+				-- ds.row:
+        if: { !ftd.is_empty(page.toc) }
+        inset: $ds.spaces.inset-wide.small
+				spacing: $ds.spaces.horizontal-gap.small
+				align-content: left
+
+          -- ph.regular: house
+          size: 20
+					
+          -- ph.regular: caret-right
+          size: 16
+					
+					-- ds.copy-regular: $page.current-section.title
+					if: { page.current-section.title != NULL }
+					color: $inherited.colors.text
+					link: $page.current-section.url
+					align: center
+					
+          -- ph.regular: caret-right
+					if: { page.current-page != NULL }
+          size: 16
+					
+					-- ds.copy-regular: $page.current-page.title
+					if: { page.current-page != NULL }
+					color if { page.current-subsection == NULL }: $inherited.colors.accent.primary
+					link: $page.current-page.url
+					
+				-- end: ds.row
+
+				-- ds.column:
+				content: $page.wrapper
+				align-content: top-left
+				
+				-- end: ds.column
+
+			-- end: ds.column
+
+		-- end: ds.row
+
+	-- end: ds.section-column
+
+
+	-- dms.dark-mode-switcher-float:
+	
+-- end: ds.page
+
+-- end: page
+
+
+
+
+
+
+
+
+
+
+-- component render-toc:
+pr.toc-item list toc-obj:
+
+-- ds.column:
+width.fixed.px: 320
+height.fixed.calc: 100vh
+align-content: top-left
+border: $ds.borders.right.small
+radius: $ds.radius.zero
+inset: $ds.spaces.inset-tall.zero-medium
+
+  -- ds.column:
+  inset: $ds.spaces.inset-wide.small-zero
+  spacing: $ds.spaces.vertical-gap.large
+  align-content: left
+
+    -- toc-instance:
+    for: $obj in $render-toc.toc-obj
+    toc: $obj
+	
+  -- end: ds.column
+
+-- end: ds.column
+
+-- end: render-toc
+
+
+
+
+
+
+
+
+
+
+-- component toc-instance:
+pr.toc-item toc:
+pr.toc-item $toc-clone: *$toc-instance.toc
+boolean is-nested: false
+
+-- ds.column:
+spacing: $ds.spaces.horizontal-gap.zero
+
+	-- ds.row:
+	spacing: $ds.spaces.horizontal-gap.space-between
+  inset: $ds.spaces.inset-wide.medium
+  background.solid if { toc-instance.toc-clone.is-active }: $inherited.colors.background.step-1
+	$on-click$: $ftd.toggle($a = $toc-instance.toc-clone.is-open)
+	
+		-- ds.copy-regular: $toc-instance.toc.title
+		link if { toc-instance.toc.url != NULL }: $toc-instance.toc.url
+		color: $inherited.colors.text
+    color if { toc-instance.toc-clone.is-active }: $inherited.colors.accent.primary
+		width: fill-container
+    style if { ! toc-instance.is-nested }: bold
+		
+    -- ph.bold: 
+		if: { !ftd.is_empty(toc-instance.toc.children) }
+    name: caret-down
+    name if { !$toc-instance.toc.is-open }: caret-left 
+    size: 16
+
+	-- end: ds.row
+
+	-- ds.column:
+	if: { !ftd.is_empty(toc-instance.toc.children) && toc-instance.toc-clone.is-open }
+	spacing: $ds.spaces.vertical-gap.zero
+  inset if { toc-instance.is-nested }: $ds.spaces.inset-wide.medium-zero
+	align-content: left
+	
+		-- toc-instance:
+		for: $obj in $toc-instance.toc.children
+		toc: $obj
+    is-nested: true
+		
+	-- end: ds.column
+
+-- end: ds.column
+
+-- end: toc-instance
+
+
+
+
+
+
+
+
+
+

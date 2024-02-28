@@ -1,0 +1,59 @@
+-- import: fastn
+
+-- fastn.package: xypnox.github.io/spellcraft
+favicon: /-/xypnox.github.io/spellcraft/favicon.ico
+
+-- fastn.dependency: fastn-community.github.io/design-system
+provided-via: xypnox.github.io/spellcraft/ds
+
+-- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fastn-community.github.io/dark-mode-switcher as dms
+-- fastn.dependency: fastn-community.github.io/svg-icons 
+
+-- fastn.auto-import: xypnox.github.io/spellcraft/ds
+-- fastn.auto-import: xypnox.github.io/spellcraft/assets
+-- fastn.auto-import: xypnox.github.io/spellcraft/common
+-- fastn.auto-import: xypnox.github.io/spellcraft/lib as lib
+
+
+-- fastn.sitemap:
+;; This is the sidebar that shows the sitemap
+
+# Documentation: /docs/quickstart
+
+- Getting started:
+  - Quickstart: /docs/quickstart
+  - Fifthtry: /docs/fifthtry
+
+- Styling:
+  - Global Settings:
+
+  - Navigation:
+  - Custom Styling:
+
+  - CTAs and Footers:
+
+  - Components:
+    
+    - Buttons:
+    - Cards:
+    - Forms:
+
+- Overview:
+
+# Sample: /api-docs/getting-started
+
+- Getting started: /api-docs/getting-started
+  - Quickstart:
+  - Development:
+    - react:
+    - NodJs:
+    - Java:
+
+# Contributing: /contributing/guide
+
+- Github: /contributing/github
+- Code of Conduct: /contributing/code-of-conduct
+
+
+# Reference: /reference/

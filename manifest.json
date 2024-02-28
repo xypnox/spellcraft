@@ -1,0 +1,171 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "586CEBEBC4A609FE4B94566D3041BC98BF11381E14AB6A6853D14B8B190AC80C",
+      "size": 1300
+    },
+    "FASTN/ds.ftd": {
+      "name": "FASTN/ds.ftd",
+      "checksum": "6D711A109012175795014A0BEC1989CF7D08A101E87D211AE4763F35A98BCB70",
+      "size": 2260
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "44F6AA44C428360D0E7D1B7278323C9E4507B8276AD2BF82635D559B5EFEFCCC",
+      "size": 55
+    },
+    "_config.yml": {
+      "name": "_config.yml",
+      "checksum": "A42D91290C93B5F17412C3B346737EA1C796E5D287306758AFE8B20470119D80",
+      "size": 21
+    },
+    "api-docs/getting-started.ftd": {
+      "name": "api-docs/getting-started.ftd",
+      "checksum": "92EBD298D43B86239DBED448C9BA3367D971CF8DF41DE999F3ACDED333D123E4",
+      "size": 292
+    },
+    "assets/down.svg": {
+      "name": "assets/down.svg",
+      "checksum": "188606D51B92C14C3AA758E3188BA5A6826C69DA1031C56958645F7FDFD2B002",
+      "size": 449
+    },
+    "assets/fifthtry-logo-dark.svg": {
+      "name": "assets/fifthtry-logo-dark.svg",
+      "checksum": "06BD65952775363FFE1754E4495F690CD7BCED0AABB167AF12C1580DA62C3C80",
+      "size": 3428
+    },
+    "assets/fifthtry-logo.svg": {
+      "name": "assets/fifthtry-logo.svg",
+      "checksum": "BC6747601442F759F85452C67747746897BF2324D1437761C18570913076238F",
+      "size": 3460
+    },
+    "assets/home.svg": {
+      "name": "assets/home.svg",
+      "checksum": "D008A119DDDA73EC1539305729699B9FDF4585D5CF6575CB9B6D96ED053B2918",
+      "size": 581
+    },
+    "assets/ipsum-logo-dark.svg": {
+      "name": "assets/ipsum-logo-dark.svg",
+      "checksum": "8290B3397C465FE1BB40B7CA280C976DF7DA3DABFC655B429805ABF33964FB5B",
+      "size": 16202
+    },
+    "assets/ipsum-logo.svg": {
+      "name": "assets/ipsum-logo.svg",
+      "checksum": "A1204241BE52C51921ECE836030DC39BC9351C8BF4472CCA1A7ECF7740B47F70",
+      "size": 16700
+    },
+    "assets/logo-dark.svg": {
+      "name": "assets/logo-dark.svg",
+      "checksum": "4942DC03B7F6A97B4367AEC1B5684B99DC2B31E4CF75432F8DA02BCF8B290923",
+      "size": 586
+    },
+    "assets/logo.svg": {
+      "name": "assets/logo.svg",
+      "checksum": "DACCDD6701CF6A7192B6007E7DE4867670F22FD98373B31435B9A6C9DD775180",
+      "size": 585
+    },
+    "assets/right.svg": {
+      "name": "assets/right.svg",
+      "checksum": "634C5931581301462CBF79B9AC377A3E911ABC3CCDD1AF8F4E1CE4BE4BCC2A15",
+      "size": 444
+    },
+    "assets/sampleImage.png": {
+      "name": "assets/sampleImage.png",
+      "checksum": "7599C04ED25E90717F4E7ECC00E1FE9DE8BAF9FD740CA4189A9EBDBDC4F9DFC9",
+      "size": 42197
+    },
+    "colors.json": {
+      "name": "colors.json",
+      "checksum": "3C761EE5B243160325B3257B48EE099133D4A71FCE3BB245592548AA262C4449",
+      "size": 12352
+    },
+    "common/index.ftd": {
+      "name": "common/index.ftd",
+      "checksum": "DE5B8A79C945E2DC4B0EB2E4FBB12194B20223BA681BF3A505664C706A87C190",
+      "size": 485
+    },
+    "components/buttons.ftd": {
+      "name": "components/buttons.ftd",
+      "checksum": "DF8073AE7A1CAC7AB4C0E0F0D230F84B6A58792BB54BB812157925AC6E5BA283",
+      "size": 445
+    },
+    "components/header.ftd": {
+      "name": "components/header.ftd",
+      "checksum": "626BB0A1A79F338D03650337A1A96693BE9906EF045CE2604FCD8805A56B34CC",
+      "size": 2570
+    },
+    "contributing/code-of-conduct.ftd": {
+      "name": "contributing/code-of-conduct.ftd",
+      "checksum": "5E3D0C139F9B75E464C76CF27FD1377D940B53ECC0DFBF559C64F45B87D1AE0F",
+      "size": 216
+    },
+    "contributing/github.ftd": {
+      "name": "contributing/github.ftd",
+      "checksum": "E5228928BB38C0BA1A8EC1CCB0978025532B0AF052189030D68AB1ACFFF30B46",
+      "size": 198
+    },
+    "contributing/guide.ftd": {
+      "name": "contributing/guide.ftd",
+      "checksum": "19A0C7AD9DB0F29E625F44B0FD093E948C96175C96F6707875A6822685BBCC8F",
+      "size": 204
+    },
+    "docs/fifthtry.ftd": {
+      "name": "docs/fifthtry.ftd",
+      "checksum": "9745DA03C4010E860A5DFA77B7EE532BBB93F3024F2C4CB0F8122310E4E3DFC5",
+      "size": 1226
+    },
+    "docs/quickstart.ftd": {
+      "name": "docs/quickstart.ftd",
+      "checksum": "9825F183FF7AF4180CEE1767FF5D6E0DDB6EC9FFFE379051858F016265700123",
+      "size": 627
+    },
+    "ds.ftd": {
+      "name": "ds.ftd",
+      "checksum": "CC350F92300C2B61A04C7E4BD329BA60840A66E05EB0512EA8765D5FF3FBA719",
+      "size": 873
+    },
+    "favicon.ico": {
+      "name": "favicon.ico",
+      "checksum": "65056A1D6C6AAE6E3DC4626E29F4BD4B628B17A8E9CC1D3A5E8FE9F6743F306B",
+      "size": 15406
+    },
+    "header.ftd": {
+      "name": "header.ftd",
+      "checksum": "12547B3911621BEB99A51D8ABDE80BD77F71B5B9EFE446B8F927199A9E21E35D",
+      "size": 2491
+    },
+    "header_old.ftd": {
+      "name": "header_old.ftd",
+      "checksum": "2A3EF0A1C9806FCBF4D4D71D802919BF3905E830AC3A49F00E34F980CAF40667",
+      "size": 12573
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "1CEF13E38238B46D9A3570304344016039046DD3761384C844EBA9B0F09C7352",
+      "size": 1950
+    },
+    "lib.ftd": {
+      "name": "lib.ftd",
+      "checksum": "167EB7C90B5B8982DF4BA8C777FEA97ED319C9918CC8CEF9B4EB7752FC235A6A",
+      "size": 4476
+    },
+    "reference.ftd": {
+      "name": "reference.ftd",
+      "checksum": "02BDA34C824F20040080DF9571B4957EAE2599D9501742068AABD2F477640469",
+      "size": 2456
+    },
+    "themecolors.ftd": {
+      "name": "themecolors.ftd",
+      "checksum": "1868A414669DE2B964227833E64A445E6962C2C5F8A0E3E1D9A48C8ECAD5D7FF",
+      "size": 6481
+    },
+    "vercel.json": {
+      "name": "vercel.json",
+      "checksum": "0A911690620506F0D47EBA9F49D46DCD57D84C7D6A3BEA93BF0875DD6B374089",
+      "size": 181
+    }
+  },
+  "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
+  "checksum": "F11C4F18720D7C3DF3DE3DEE5F80EA5AA151CF9BC478E97DD8B1870D0FAD8C36"
+}
