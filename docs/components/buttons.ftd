@@ -1,14 +1,11 @@
--- import: xypnox.github.io/spellcraft/components/section 
--- import: xypnox.github.io/spellcraft/components/buttons 
-
 -- lib.page: Buttons
 
--- section.content: Buttons
+-- lib.content: Buttons
 
--- ds.heading-medium: Search Button
-
--- buttons.searchbutton: 
-
--- end: section.content
+	-- lib.heading: Search Button
+	
+	-- lib.searchbutton:
+	
+-- end: lib.content
 
 -- end: lib.page

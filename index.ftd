@@ -14,7 +14,7 @@ spacing: $ds.spaces.vertical-gap.large
 	src: $assets.files.assets.sampleImage.png
 	 width.fixed.percent: 100
 	 height.fixed.px: 200
-  fit: cover
+	 fit: cover
 	border-radius.px: 20
 	
 	-- ds.column:
@@ -40,42 +40,40 @@ spacing: $ds.spaces.vertical-gap.large
 
 -- ds.column:
 
-  -- ds.section-row: 
-  margin: $ds.spaces.vertical-gap.extra-extra-large
-  
-    -- ds.column: 
-    align-content: left
-    
-      -- ds.heading-tiny: Spellcraft
+	-- ds.section-row:
+	margin: $ds.spaces.vertical-gap.extra-extra-large
+	
+		-- ds.column:
+		align-content: left
+		
+			-- ds.heading-tiny: Spellcraft
+			
+			-- ds.column:
+			align-content: left
+			spacing: $ds.spaces.vertical-gap.zero
+				-- ds.heading-hero: Make your documentation
+				-- ds.heading-hero: _magical_
+				color: $inherited.colors.primary
+			-- end: ds.column
 
-      -- ds.column:
-      align-content: left
-      spacing: $ds.spaces.vertical-gap.zero
-        -- ds.heading-hero: Make your documentation 
-        -- ds.heading-hero: _magical_
-        color: $inherited.colors.primary
-      -- end: ds.column
-      
-      -- ds.copy-large: Spellcraft is a fastn template for fifthtry. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website.
-      
-        -- ds.phosphor-icon-button: Get started
-        link: /docs/quickstart
-        icon: caret-right
-        icon-position: at-end
-        size: large
-        
+			-- ds.copy-large: Spellcraft is a fastn template for fifthtry. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website.
+			
+			-- ds.phosphor-icon-button: Get started
+			link: /docs/quickstart
+			icon: caret-right
+			icon-position: at-end
+			size: large
+			
+			
+		-- end: ds.column
 
-    -- end: ds.column
+		-- ds.column:
+			-- ftd.image: $assets.files.assets.logo.svg
+			width: fill-container
+		-- end: ds.column
 
-    -- ds.column:
-      -- ftd.image: $assets.files.assets.logo.svg
-      width: fill-container
-    -- end: ds.column
-
-  -- end: ds.section-row
+	-- end: ds.section-row
 
 -- end: ds.column
 
 -- end: hero
-
-

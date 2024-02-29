@@ -1,17 +1,14 @@
--- import: xypnox.github.io/spellcraft/components/section 
-
 -- lib.page: Quickstart
 
--- section.content: Quickstart
+-- lib.content: Quickstart
 image: $assets.files.assets.sampleImage.png
 
--- ds.heading-medium: Installation
-
--- ds.copy-regular:
-
-You can clone the theme template and run your site locally or build and manage your site with [fastn](https://fastn.com).
-
--- end: section.content
+	-- lib.heading: Installation
+	
+	-- ds.copy-regular:
+	
+	You can clone the theme template and run your site locally or build and manage your site with [fastn](https://fastn.com).
+	
+-- end: lib.content
 
 -- end: lib.page
-

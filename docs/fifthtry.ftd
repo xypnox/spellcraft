@@ -1,57 +1,28 @@
 -- lib.page: Fifthtry
 
--- ds.section-column:
-align-content: left
-spacing: $ds.spaces.vertical-gap.large
+-- lib.content: Using Spellcraft on Fifthtry
+image: $assets.files.assets.sampleImage.png
 
-
-	-- ds.heading-large: Using Spellcraft on Fifthtry
+	-- lib.heading: Start from template
 	
-	-- ftd.image:
-	src: $assets.files.assets.sampleImage.png
-	 width.fixed.percent: 100
-	 height.fixed.px: 200
-  fit: cover
-	border-radius.px: 20
+	-- ds.copy-regular:
 	
-	-- ds.column:
-	align-content: left
-	spacing: $ds.spaces.vertical-gap.medium
+	You can start from the spellcraft template inside fifthtry and your site will be built and managed with [fifthtry](https://fifthtry.com).
 	
-		-- ds.heading-medium: Start from template
-		
-		-- ds.copy-regular:
-		
-		You can start from the spellcraft template inside fifthtry and your site will be built and managed with [fifthtry](https://fifthtry.com).
-		
-		
-		
-	-- end: ds.column
-
-	-- ds.column:
-	align-content: left
-	spacing: $ds.spaces.vertical-gap.medium
+	-- lib.heading: Editing Pages
 	
-		-- ds.heading-medium: Editing Pages
-		
-		-- ds.copy-regular:
-		
-    You can edit pages using the fifthtry editor. You can also use the fifthtry editor to create new pages.
-		
-	-- end: ds.column
-
-	-- ds.column:
-	align-content: left
-	spacing: $ds.spaces.vertical-gap.medium
+	-- ds.copy-regular:
 	
-		-- ds.heading-medium: Configuring Defaults
-		
-		-- ds.copy-regular:
-		
-    You can edit the default settings for your website in the fifthtry settings of the particular website.
-		
-	-- end: ds.column
-
--- end: ds.section-column
+	You can edit pages using the fifthtry editor. You can also use the fifthtry editor to create new pages.
+	
+	
+	-- lib.heading: Configuring Defaults
+	
+	-- ds.copy-regular:
+	
+	You can edit the default settings for your website in the fifthtry settings of the particular website.
+	
+	
+-- end: lib.content
 
 -- end: lib.page
