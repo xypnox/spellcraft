@@ -1,0 +1,25 @@
+-- component doc-page:
+caption heading:
+string title:
+children wrapper:
+optional ftd.image-src image:
+children wrapper:
+
+-- lib.page: $doc-page.title
+sidebar: true
+breadcrumb: true
+
+	-- lib.content: $doc-page.heading
+	image: $doc-page.image
+	
+		-- ds.column:
+		align-content: left
+		 content: $doc-page.wrapper
+		
+		-- end: ds.column
+
+	-- end: lib.content
+
+-- end: lib.page
+
+-- end: doc-page

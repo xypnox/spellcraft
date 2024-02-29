@@ -2,8 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "36DE17DF92A90CA093F74F2534B469E33B9F289B9EF611EDC4C17FF3DE514122",
-      "size": 1251
+      "checksum": "2130B92E60643C6830F041DA1D8DA2A9EDD330ED5F1FEEE4DA6E74B478FE0686",
+      "size": 1413
     },
     "README.md": {
       "name": "README.md",
@@ -19,6 +19,11 @@
       "name": "api-docs/getting-started.ftd",
       "checksum": "92EBD298D43B86239DBED448C9BA3367D971CF8DF41DE999F3ACDED333D123E4",
       "size": 292
+    },
+    "api-docs/large-doc.ftd": {
+      "name": "api-docs/large-doc.ftd",
+      "checksum": "FDBC9B3A431F82665587BE8CE1E2D1F83D0E8863C03CE173D6FD9410F03C8AF3",
+      "size": 7932
     },
     "assets/down.svg": {
       "name": "assets/down.svg",
@@ -75,10 +80,20 @@
       "checksum": "DE5B8A79C945E2DC4B0EB2E4FBB12194B20223BA681BF3A505664C706A87C190",
       "size": 485
     },
+    "components/annotations.ftd": {
+      "name": "components/annotations.ftd",
+      "checksum": "F7B9F668F4041D05D5235D71108D751EE39AE0FC38C9A51E06EDC9730D35467A",
+      "size": 1826
+    },
     "components/buttons.ftd": {
       "name": "components/buttons.ftd",
       "checksum": "3708FB6E02ED7A5DD51B7B6646EC9699A9C93EE61967DE4BAFFF1342D5A4C037",
       "size": 450
+    },
+    "components/doc-page.ftd": {
+      "name": "components/doc-page.ftd",
+      "checksum": "CF2698D9B40D6EA9316E17B562818445949FE118E30D1741F149C98779CEB05E",
+      "size": 392
     },
     "components/header.ftd": {
       "name": "components/header.ftd",
@@ -97,8 +112,8 @@
     },
     "components/typography.ftd": {
       "name": "components/typography.ftd",
-      "checksum": "22EEF2FFCC47639F3542090699AD1B32F2C211C030A261A5F830FA68AD3A0E15",
-      "size": 215
+      "checksum": "47C5A5FF3D59BF2AE7846DB0910AC70EC5AE0DDDF7FA20C2C77C5FA490A36C4B",
+      "size": 211
     },
     "contributing/code-of-conduct.ftd": {
       "name": "contributing/code-of-conduct.ftd",
@@ -117,38 +132,48 @@
     },
     "docs.ftd": {
       "name": "docs.ftd",
-      "checksum": "392EC43FC5A2F9E56AEC9DA5D28E487381568EAEE8D37EA1B7DABAB9F292C5BA",
-      "size": 282
+      "checksum": "173DAA0EC283CED149B1BD676678837DE98BBAD82E8F94CFD0D0EBD6149CBC2E",
+      "size": 170
+    },
+    "docs/components/annotations.ftd": {
+      "name": "docs/components/annotations.ftd",
+      "checksum": "E24BE74666B9804A3F042D80548F1E4C92D31A391FD32F9D34D823BF7B884058",
+      "size": 389
     },
     "docs/components/buttons.ftd": {
       "name": "docs/components/buttons.ftd",
-      "checksum": "3E9902438527D8EE768216F358CB692C016931B9D7F331FB4C8278D57CD13F63",
-      "size": 142
+      "checksum": "3818E38C7AE2B9E83AFF838F5322DA7C0901E2E621B8433F24FE9629FB809EAB",
+      "size": 115
+    },
+    "docs/components/doc-page.ftd": {
+      "name": "docs/components/doc-page.ftd",
+      "checksum": "6C47A3F4529F430531063BBE42D9475AB1DE83DB0384B66C19ED25125D5CC9D9",
+      "size": 317
     },
     "docs/components/index.ftd": {
       "name": "docs/components/index.ftd",
-      "checksum": "B6F792C54E37EB663BD7F5D627545C1720D3FC34098E1427F9C260124D9F562D",
-      "size": 140
+      "checksum": "A7BA8AD3C7FEB96D8133533E9687D0FAA2909232E30421EF96855F4D4E16708C",
+      "size": 115
     },
     "docs/components/page.ftd": {
       "name": "docs/components/page.ftd",
-      "checksum": "470BBCDEA4568B38B89477F4E2F59182A27C4E3DAE12DC11E30B306E1B58918B",
-      "size": 603
+      "checksum": "2D1D31A41CC6DD7430631C983F176744F2DE5B70F2ED4A32F79B5A6A212A4D69",
+      "size": 560
     },
     "docs/components/section.ftd": {
       "name": "docs/components/section.ftd",
-      "checksum": "D835F73F9D69E4165C98E31D972266674F4C28316E054F07F59A57DDFCE4A5C4",
-      "size": 682
+      "checksum": "293D34D700801DD6A6F4B0458B1AFA655AD864BED94FF877D19B28D8B102728D",
+      "size": 643
     },
     "docs/fifthtry.ftd": {
       "name": "docs/fifthtry.ftd",
-      "checksum": "160CD4FA0EF833DE1FD6401DC4EF3B3C005A6D377E54D5E2C1A56A0DB48ADAEF",
-      "size": 690
+      "checksum": "5A140C9C865C669E8C7C7C2EDBE28447BE6BE2B1F946F05C375A04ECB54935A3",
+      "size": 646
     },
     "docs/quickstart.ftd": {
       "name": "docs/quickstart.ftd",
-      "checksum": "E8EB25EF22D1C937FC81D907F68A818A0748C0B9307B810B742EE2768EADC9F4",
-      "size": 315
+      "checksum": "874D3AC6DB62BB35F8C8710060301342F9A700CE34A22B2746E213F828AEF84F",
+      "size": 382
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -157,27 +182,27 @@
     },
     "favicon.ico": {
       "name": "favicon.ico",
-      "checksum": "65056A1D6C6AAE6E3DC4626E29F4BD4B628B17A8E9CC1D3A5E8FE9F6743F306B",
+      "checksum": "416D63AE9E75484C335F801A81E0063069905C9EFCA4471AB13384961F9FA975",
       "size": 15406
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "11228E019458DE2EEE4D4958A578E7944468F0CC02D4480B523B958BD6873458",
-      "size": 1860
+      "checksum": "1D2ABC007D251A4AEF1875F866179EF704745129218ADB1FE1A161664B57CEF3",
+      "size": 1771
     },
     "lib.ftd": {
       "name": "lib.ftd",
-      "checksum": "DFC8D548802908B2C4BD37DF72D5EF4A490BE2E41D582D0AC9384373580D9DAF",
-      "size": 400
+      "checksum": "A8B3C70E2D597B42C23DABB93F280645798E80C16BAB687B7CB34A5944816C6E",
+      "size": 602
     },
     "reference.ftd": {
       "name": "reference.ftd",
-      "checksum": "02BDA34C824F20040080DF9571B4957EAE2599D9501742068AABD2F477640469",
-      "size": 2456
+      "checksum": "138D7FDC5D53E8CEB5DA484E6E4D66BC2BA1343327D4B160F2907E154CE53161",
+      "size": 2882
     },
     "themecolors.ftd": {
       "name": "themecolors.ftd",
-      "checksum": "1868A414669DE2B964227833E64A445E6962C2C5F8A0E3E1D9A48C8ECAD5D7FF",
+      "checksum": "7DEB5FFB7D6E2A638E6522A9B11A8CFD811836AAF82430F21C20CA00E8931800",
       "size": 6481
     },
     "vercel.json": {
@@ -187,5 +212,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-  "checksum": "A18264922886E66221726C395469A77500BDB464F94BC92490DE1CFB63487BC0"
+  "checksum": "DFEE742424E1AEACDED4B00EB360C08BB6E3C3C939109F36C6D8C639E01F6266"
 }

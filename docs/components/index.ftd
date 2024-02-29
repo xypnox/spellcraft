@@ -1,9 +1,6 @@
--- lib.page: Components
+-- lib.doc-page: GRID HERE
+title: Components
 
--- lib.content: GRID HERE
+-- ds.copy-regular: Grid should be placed here
 
-	-- ds.copy-regular: Grid should be placed here
-	
--- end: lib.content
-
--- end: lib.page
+-- end: lib.doc-page

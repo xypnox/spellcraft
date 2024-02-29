@@ -236,11 +236,11 @@ dark: #f5bdbb
 
 -- ftd.color error-text-:
 light: #c62a21
-dark: #c62a21
+dark: #ba5050
 
 -- ftd.color error-border-:
 light: #df2b2b
-dark: #df2b2b
+dark: #ba5050
 
 -- ftd.btb error-btb-:
 base: $error-base-
@@ -253,11 +253,11 @@ dark: #e3f0c4
 
 -- ftd.color success-text-:
 light: #467b28
-dark: #467b28
+dark: #53a988
 
 -- ftd.color success-border-:
 light: #3d741f
-dark: #3d741f
+dark: #53a988
 
 -- ftd.btb success-btb-:
 base: $success-base-
@@ -287,11 +287,11 @@ dark: #fbefba
 
 -- ftd.color warning-text-:
 light: #966220
-dark: #966220
+dark: #b48f38
 
 -- ftd.color warning-border-:
 light: #966220
-dark: #966220
+dark: #b48f38
 
 -- ftd.btb warning-btb-:
 base: $warning-base-

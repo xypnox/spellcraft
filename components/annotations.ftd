@@ -1,0 +1,109 @@
+
+
+-- component annotation:
+caption type:
+body text:
+ftd.color background:
+ftd.color border:
+ftd.color color:
+
+
+-- ds.row:
+align-content: left
+spacing: $ds.spaces.horizontal-gap.medium
+
+	-- ds.row:
+	height.fixed.em: 4
+	width.fixed.px: 4
+	border: $ds.borders.left.medium
+	border-color: $annotation.border
+	
+	-- end: ds.row
+
+	-- ds.column:
+	align-content: left
+	inset: $ds.spaces.inset-wide.medium
+	spacing: $ds.spaces.horizontal-gap.extra-small
+	background.solid: $annotation.background
+	
+		-- ds.fine-print: $annotation.type
+		color: $annotation.color
+		
+		-- ds.copy-regular: $annotation.text
+	-- end: ds.column
+
+-- end: ds.row
+
+-- end: annotation
+
+
+-- component warning:
+caption or body text:
+
+-- annotation: Warning
+background: $inherited.colors.background.step-1
+border: $inherited.colors.warning.border
+color: $inherited.colors.warning.text
+
+$warning.text
+
+-- end: annotation
+
+-- end: warning
+
+
+
+
+-- component note:
+caption or body text:
+
+-- annotation: Note
+background: $inherited.colors.background.step-1
+border: $inherited.colors.accent.primary
+color: $inherited.colors.accent.primary
+
+$note.text
+
+-- end: annotation
+-- end: note
+
+
+-- component info:
+caption or body text:
+
+-- annotation: Info
+background: $inherited.colors.background.step-1
+border: $inherited.colors.text
+color: $inherited.colors.text
+
+$info.text
+
+-- end: annotation
+-- end: info
+
+
+-- component tip:
+caption or body text:
+
+-- annotation: Tip
+background: $inherited.colors.background.step-1
+border: $inherited.colors.success.border
+color: $inherited.colors.success.text
+
+$tip.text
+
+-- end: annotation
+-- end: tip
+
+-- component danger:
+caption or body text:
+
+-- annotation: Danger
+background: $inherited.colors.background.step-1
+border: $inherited.colors.error.border
+color: $inherited.colors.error.text
+
+$danger.text
+
+-- end: annotation
+-- end: danger

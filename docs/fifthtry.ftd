@@ -1,28 +1,24 @@
--- lib.page: Fifthtry
-
--- lib.content: Using Spellcraft on Fifthtry
+-- lib.doc-page: Using Spellcraft on Fifthtry
+title: Fifthtry
 image: $assets.files.assets.sampleImage.png
 
-	-- lib.heading: Start from template
-	
-	-- ds.copy-regular:
-	
-	You can start from the spellcraft template inside fifthtry and your site will be built and managed with [fifthtry](https://fifthtry.com).
-	
-	-- lib.heading: Editing Pages
-	
-	-- ds.copy-regular:
-	
-	You can edit pages using the fifthtry editor. You can also use the fifthtry editor to create new pages.
-	
-	
-	-- lib.heading: Configuring Defaults
-	
-	-- ds.copy-regular:
-	
-	You can edit the default settings for your website in the fifthtry settings of the particular website.
-	
-	
--- end: lib.content
+-- lib.heading: Start from template
 
--- end: lib.page
+-- ds.copy-regular:
+
+You can start from the spellcraft template inside fifthtry and your site will be built and managed with [fifthtry](https://fifthtry.com).
+
+-- lib.heading: Editing Pages
+
+-- ds.copy-regular:
+
+You can edit pages using the fifthtry editor. You can also use the fifthtry editor to create new pages.
+
+
+-- lib.heading: Configuring Defaults
+
+-- ds.copy-regular:
+
+You can edit the default settings for your website in the fifthtry settings of the particular website.
+
+-- end: lib.doc-page
