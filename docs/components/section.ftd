@@ -1,0 +1,26 @@
+-- import: xypnox.github.io/spellcraft/components/section 
+
+-- lib.page: Sections
+
+-- section.content: Sections
+
+-- ds.copy-regular:
+
+Sections are the building blocks of a page. They can be used to organize content and make it easier to read. Sections can contain text, images, videos, and other types of content.
+
+-- ds.copy-regular:
+
+Remember that the section that you are about to see is already in a section!
+
+-- section.content: An example section
+image: $assets.files.assets.sampleImage.png
+
+-- ds.copy-regular:
+
+Here's an example of a section with some text and an image:
+
+-- end: section.content
+
+-- end: section.content
+
+-- end: lib.page

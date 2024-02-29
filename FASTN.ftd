@@ -19,29 +19,20 @@ provided-via: xypnox.github.io/spellcraft/ds
 -- fastn.sitemap:
 ;; This is the sidebar that shows the sitemap
 
-# Documentation: /docs/quickstart
+# Docs: /docs
 
-- Getting started:
+- Getting started: /docs
   - Quickstart: /docs/quickstart
   - Fifthtry: /docs/fifthtry
 
-- Styling:
-  - Global Settings:
-
-  - Navigation:
-  - Custom Styling:
-
-  - CTAs and Footers:
-
-  - Components:
-    
-    - Buttons:
-    - Cards:
-    - Forms:
+- Components: 
+  - Page: /docs/components/page
+  - Section: /docs/components/section
+  - Buttons: /docs/components/buttons
 
 - Overview:
 
-# Sample: /api-docs/getting-started
+# Example: /api-docs/getting-started
 
 - Getting started: /api-docs/getting-started
   - Quickstart:
@@ -50,7 +41,7 @@ provided-via: xypnox.github.io/spellcraft/ds
     - NodJs:
     - Java:
 
-# Contributing: /contributing/guide
+# Contribute: /contributing/guide
 
 - Github: /contributing/github
 - Code of Conduct: /contributing/code-of-conduct
