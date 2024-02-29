@@ -5,8 +5,8 @@
 -- ds.row: 
 align-content: left
 inset: $ds.spaces.inset-wide.medium
-radius: $ds.radius.small
-width.fixed.em: 20
+radius: $ds.radius.medium
+width.fixed.em: 15
 background.solid: $inherited.colors.background.step-1
 border: $ds.borders.uniform.small
 border-color: $ds.colors.border

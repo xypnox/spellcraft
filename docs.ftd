@@ -1,0 +1,13 @@
+-- import: xypnox.github.io/spellcraft/components/section 
+
+-- lib.page: Documentation
+
+-- section.content: Introduction
+
+-- ds.copy-regular:
+
+You probably want to start with [Quickstart](/docs/quickstart) if you are new to Spellcraft.
+
+-- end: section.content
+
+-- end: lib.page

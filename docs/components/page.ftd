@@ -1,0 +1,31 @@
+-- import: xypnox.github.io/spellcraft/components/section 
+
+-- lib.page: Page
+
+-- section.content: Page
+
+-- ds.copy-regular:
+
+A page is the root of the website. It contains layout, navigation, and other global elements and wraps around the content of the website.
+
+-- ds.copy-regular:
+
+Remember that the page that you are about to see is already in a page!
+
+-- lib.page: Page
+
+
+-- section.content: Page
+image: $assets.files.assets.sampleImage.png
+
+-- ds.copy-regular:
+
+This is the content of the page.
+
+-- end: section.content
+
+-- end: lib.page
+
+-- end: section.content
+
+-- end: lib.page

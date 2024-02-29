@@ -30,21 +30,16 @@ ds.flush flush: to-header
 		-- header.header:
 		sections: $page.sections
 		sub-sections: $page.sub-sections
-		current-section: $page.current-section
-		current-subsection: $page.current-subsection
-		current-page: $page.current-page
-		toc: $page.toc
 		site-logo: $page.site-logo
 		site-url: $page.site-url
 		site-name: $page.site-name
-		breadcrumb: $page.breadcrumb
 		
 		-- ds.row:
 		align-content: top-left
     spacing: $ds.spaces.vertical-gap.large
 		
 			-- render-toc:
-			if: { !ftd.is_empty(page.toc) }
+			if: { !ftd.is_empty(page.toc) && page.sidebar }
 			toc-obj: $page.toc
 			
 			-- ds.column:
@@ -53,13 +48,20 @@ ds.flush flush: to-header
 			spacing: $ds.spaces.vertical-gap.large
 			
 				-- ds.row:
-        if: { !ftd.is_empty(page.toc) }
+        if: { page.breadcrumb }
         inset: $ds.spaces.inset-wide.small
 				spacing: $ds.spaces.horizontal-gap.small
 				align-content: left
 
-          -- ph.regular: house
-          size: 20
+          -- ds.row:
+          link: $page.site-url
+          width: hug-content
+          color: $inherited.colors.text
+
+            -- ph.regular: house
+            size: 20
+
+          -- end: ds.row
 					
           -- ph.regular: caret-right
           size: 16

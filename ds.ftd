@@ -11,6 +11,7 @@ wide.px: 1340
 
 
 -- import: xypnox.github.io/spellcraft/themecolors
+-- import: xypnox.github.io/spellcraft/themecolors
 -- import: fastn-community.github.io/roboto-typography
 
 -- ftd.color-scheme colors: $themecolors.main
