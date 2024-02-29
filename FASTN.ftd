@@ -27,8 +27,10 @@ provided-via: xypnox.github.io/spellcraft/ds
 
 - Components:
   - Page: /docs/components/page
-  - Section: /docs/components/section
+  - DocPage: /docs/components/doc-page
+  - Content Section: /docs/components/section
   - Buttons: /docs/components/buttons
+  - Annotations: /docs/components/annotations
 
 - Overview:
 
@@ -37,9 +39,12 @@ provided-via: xypnox.github.io/spellcraft/ds
 - Getting started: /api-docs/getting-started
   - Quickstart:
   - Development:
+  - Development:
     - react:
     - NodJs:
     - Java:
+
+- Large Page with Large Title: /api-docs/large-doc
 
 # Contribute: /contributing/guide
 

@@ -17,19 +17,14 @@ spacing: $ds.spaces.vertical-gap.large
 	 fit: cover
 	border-radius.px: 20
 	
-	-- ds.column:
-	align-content: left
-	spacing: $ds.spaces.vertical-gap.medium
+	-- lib.content: Introduction
 	
-		-- ds.heading-large: Introduction
-		
 		-- ds.copy-regular:
 		
 		Spellcraft is a template for fastn, a static site generator. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website. It is designed to be a starting point for building a website with fastn. It includes a set of components and styles that can be used to build a website.
 		
-		
-		
-	-- end: ds.column
+	-- end: lib.content
+
 -- end: ds.section-column
 
 -- end: lib.page

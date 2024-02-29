@@ -1,11 +1,8 @@
--- lib.page: Buttons
+-- lib.doc-page: Buttons
+title: Buttons
 
--- lib.content: Buttons
+-- lib.heading: Search Button
 
-	-- lib.heading: Search Button
-	
-	-- lib.searchbutton:
-	
--- end: lib.content
+-- lib.searchbutton:
 
--- end: lib.page
+-- end: lib.doc-page

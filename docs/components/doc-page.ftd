@@ -1,0 +1,18 @@
+-- lib.doc-page: doc-page
+title: doc-page
+
+-- lib.heading: Doc Page
+
+-- ds.copy-regular: This is a regular copy
+
+-- lib.doc-page: doc-page
+title: doc-page
+image: $assets.files.assets.sampleImage.png
+
+	-- lib.heading: Doc Page
+	
+	-- ds.copy-regular: This is a regular copy
+	
+-- end: lib.doc-page
+
+-- end: lib.doc-page

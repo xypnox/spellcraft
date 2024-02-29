@@ -1,14 +1,13 @@
--- lib.page: Quickstart
-
--- lib.content: Quickstart
+-- lib.doc-page: Quickstart
+title: Quickstart
 image: $assets.files.assets.sampleImage.png
 
-	-- lib.heading: Installation
-	
-	-- ds.copy-regular:
-	
-	You can clone the theme template and run your site locally or build and manage your site with [fastn](https://fastn.com).
-	
--- end: lib.content
+-- lib.heading: Installation
 
--- end: lib.page
+-- ds.copy-regular:
+
+You can clone the theme template and run your site locally or build and manage your site with [fastn](https://fastn.com).
+
+-- lib.tip: It is recommended that you use [fifthtry](https://fifthtry.com) to host your site.
+
+-- end: lib.doc-page

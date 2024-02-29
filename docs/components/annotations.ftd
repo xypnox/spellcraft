@@ -1,0 +1,16 @@
+-- lib.doc-page: Annotations
+title: Annotations
+
+-- lib.heading: Note
+
+-- lib.info: This is a info, you can listen or ignore this!
+
+-- lib.note: This is a note, take care about this!
+
+-- lib.tip: This is a tip, it might help you!
+
+-- lib.warning: This is a warning, you better take care about this!
+
+-- lib.danger: This is a warning, you better take care about this!
+
+-- end: lib.doc-page
