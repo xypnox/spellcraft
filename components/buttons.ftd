@@ -2,7 +2,7 @@
 
 -- component searchbutton:
 
--- ds.row: 
+-- ds.row:
 align-content: left
 inset: $ds.spaces.inset-wide.medium
 radius: $ds.radius.medium
@@ -12,11 +12,11 @@ border: $ds.borders.uniform.small
 border-color: $ds.colors.border
 link: /search
 
--- ph.regular: magnifying-glass
-size: 16
-
--- ds.copy-regular: Search
-
+	-- ph.regular: magnifying-glass
+	size: 16
+	
+	-- ds.copy-regular: Search
+	
 -- end: ds.row
 
 -- end: searchbutton

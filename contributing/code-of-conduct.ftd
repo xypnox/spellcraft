@@ -1,12 +1,14 @@
 -- lib.page: Code of Conduct
 
--- ds.heading-hero: Code of Conduct
+-- lib.content: Code of Conduct
 
--- ds.copy-regular:
-
-Spellcraft's source code is available on Github.
-
--- ds.link: Repo
-link: https://github.com/xypnox/spellcraft
+	-- ds.copy-regular:
+	
+	Spellcraft's source code is available on Github.
+	
+	-- ds.link: Repo
+	link: https://github.com/xypnox/spellcraft
+	
+-- end: lib.content
 
 -- end: lib.page

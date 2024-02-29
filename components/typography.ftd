@@ -1,0 +1,14 @@
+;; Typography related components
+
+
+;; This is a heading component. It is used to display a title or heading in a page.
+-- component heading:
+caption title:
+
+-- ds.heading-medium: $heading.title
+
+-- end: heading
+
+
+
+

@@ -1,11 +1,9 @@
--- import: xypnox.github.io/spellcraft/components/section 
-
 -- lib.page: Components
 
--- section.content: GRID HERE
+-- lib.content: GRID HERE
 
--- ds.copy-regular: Grid should be placed here
-
--- end: section.content
+	-- ds.copy-regular: Grid should be placed here
+	
+-- end: lib.content
 
 -- end: lib.page
