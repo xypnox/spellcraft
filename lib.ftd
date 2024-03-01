@@ -18,3 +18,6 @@ export: note, warning, info, tip, danger, annotation
 
 -- import: xypnox.github.io/spellcraft/components/typography as _
 export: heading
+
+-- import: xypnox.github.io/spellcraft/components/code as _
+export: code

@@ -1,0 +1,153 @@
+-- import: fastn-community.github.io/svg-icons/phosphor as ph
+
+-- component code:
+optional caption caption:
+optional string download:
+body body:
+string text: $code.body
+string lang: ftd
+boolean copy: true
+string $copy-text: null
+boolean $copy-mouse-in: false
+boolean $download-mouse-in: false
+boolean $mouse-in: false
+optional ftd.resizing max-height:
+optional ftd.resizing max-width:
+string clean-code: $ftd.clean-code(a = $code.text, lang = $code.lang)
+boolean line-numbers: false
+
+-- ftd.column:
+padding-bottom.px: 12
+padding-top.px: 12
+width: fill-container
+$on-mouse-enter$: $ftd.set-bool($a = $code.mouse-in, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $code.mouse-in, v = false)
+cursor: default
+overflow-y: auto
+
+	-- ftd.row:
+	if: { code.caption != NULL || code.download != NULL || code.copy }
+	width: fill-container
+	background.solid: $inherited.colors.background.step-1
+	padding-top.px if { code.caption != NULL }: 10
+	padding-bottom.px if { code.caption != NULL }: 10
+	padding-left.px if { code.caption != NULL }: 20
+	padding-right.px if { code.caption != NULL }: 20
+	border-top-left-radius.px: 4
+	border-top-right-radius.px: 4
+	max-width.fixed.px if { code.max-width != NULL }: $code.max-width
+	
+		-- ftd.text: $code.caption
+		if: { code.caption != NULL }
+		role: $inherited.types.copy-regular
+		color: $inherited.colors.text
+		align-self: start
+		width: fill-container
+		
+		-- ftd.row:
+		if: { code.copy }
+		spacing.fixed.px: 10
+		align-content: right
+		align-self: end
+		$on-mouse-leave$: $ftd.set-string($a = $code.copy-text, v = null)
+		anchor: parent
+		top.px: 12
+		right.px: 20
+		right.px if { code.download != NULL }: 56
+    $on-click$: $ftd.copy-to-clipboard(a = $code.clean-code)
+    $on-click$: $ftd.set-string($a = $code.copy-text, v = Copied!)
+		
+			-- ph.regular:
+			name: copy
+      size: 18
+
+			-- ph.regular:
+			if: { code.copy-text == "null" && code.mouse-in }
+			name: copy
+      size: 18
+			
+			-- ph.regular:
+			if: { code.copy-text != "null" }
+			name: check
+			size: 18
+			
+			-- ftd.text: $code.copy-text
+			if: { code.copy-text != "null" }
+			role: $inherited.types.copy-regular
+			color: $inherited.colors.text
+			
+		-- end: ftd.row
+
+		-- ftd.image:
+		if: { code.download != NULL && code.mouse-in }
+		src: $assets.files.static.download.svg
+		src if { code.download-mouse-in }: $assets.files.static.download-hover.svg
+		width.fixed.px: 20
+		height.fixed.px: 20
+		align-self: end
+		anchor: parent
+		top.px: 12
+		right.px: 20
+		;;$on-mouse-enter$: $ftd.set-bool($a = $code.download-mouse-in, v = true)
+		;;$on-mouse-leave$: $ftd.set-bool($a = $code.download-mouse-in, v = false)
+		;;$on-click$: $download-text(filename = $code.download, text = $code.clean-code)
+		
+	-- end: ftd.row
+
+	-- ftd.code:
+	theme: fastn-theme.light
+	theme if { ftd.dark-mode }: fastn-theme.dark
+	text: $code.body
+	lang: $code.lang
+	width: fill-container
+	role: $inherited.types.copy-regular
+	color: $inherited.colors.text
+	background.solid: $inherited.colors.background.code
+	border-top-left-radius.px if { code.caption == NULL }: 4
+	border-top-right-radius.px if { code.caption == NULL }: 4
+	border-bottom-left-radius.px if { code.caption == NULL }: 4
+	border-bottom-right-radius.px if { code.caption == NULL }: 4
+	overflow-x: auto
+	overflow-y: auto
+	max-height if { code.max-height != NULL }: $code.max-height
+	max-width if { code.max-width != NULL }: $code.max-width
+	padding-bottom.px: 24
+	show-line-number if { code.line-numbers }: true
+	
+	-- ftd.column:
+	if: { code.lang != NULL }
+	anchor: parent
+	right.px: 12
+	bottom.px: 12
+	z-index: 999
+	padding.px: 6
+	border-bottom-right-radius.px: 4
+	
+		-- ftd.row:
+		spacing.fixed.px: 16
+		
+			-- ftd.text: $code.download
+			if: { code.download != NULL }
+			role: $inherited.types.fine-print
+			color: $inherited.colors.text
+			
+			-- ftd.row:
+			spacing.fixed.px: 4
+			
+				-- ftd.text: Lang:
+				role: $inherited.types.fine-print
+				color: $inherited.colors.text
+				
+				-- ftd.text: $code.lang
+				role: $inherited.types.fine-print
+				color: $inherited.colors.text
+				
+			-- end: ftd.row
+
+		-- end: ftd.row
+
+	-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: code
