@@ -87,13 +87,13 @@
     },
     "components/buttons.ftd": {
       "name": "components/buttons.ftd",
-      "checksum": "A2FFC56158A9027098DAC19F6B654AEB8B2FBE0B4053AB24EF84659785975A0A",
-      "size": 539
+      "checksum": "57DF3A8A3BB349431544BA405B99771E67F38A35ED501303A29B1C34AB07F150",
+      "size": 537
     },
     "components/code.ftd": {
       "name": "components/code.ftd",
-      "checksum": "143C1CB980D89325F2A8AEFCF6E1936A9E245F6B0CC1632BC6506F733A68E3DA",
-      "size": 4145
+      "checksum": "4729B963D1B4362EFA2E85CF137E527EDC500B0C32B2E7D2FE0CF23BCAC5E5A0",
+      "size": 4146
     },
     "components/doc-page.ftd": {
       "name": "components/doc-page.ftd",
@@ -102,8 +102,8 @@
     },
     "components/header.ftd": {
       "name": "components/header.ftd",
-      "checksum": "6504CBA2C5D0933ED0D7DD85397F3FCCE73BF2B61EA5F9772F493628163CDD75",
-      "size": 2308
+      "checksum": "1A16D43324FFC3673B70745F7C81AF392C3D7419EBAB7991D1BD2DAC60028095",
+      "size": 2263
     },
     "components/page.ftd": {
       "name": "components/page.ftd",
@@ -222,5 +222,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-  "checksum": "DAD82E65A9B3998D66FE771C63B488B5EB8B63E407BC64C5D9A1B65740D26E4C"
+  "checksum": "5F78E73C9AA035BA00AB2FD45E7BFBB1C3384317B3335BF84C45C32D7406667A"
 }
