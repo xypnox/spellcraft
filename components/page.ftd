@@ -168,8 +168,8 @@ spacing: $ds.spaces.horizontal-gap.zero
 		
 		-- ph.bold:
 		if: { !ftd.is_empty(toc-instance.toc.children) }
+		name if { !toc-instance.toc-clone.is-open }: caret-left
 		name: caret-down
-		name if { !$toc-instance.toc.is-open }: caret-left
 		size: 16
 		
 	-- end: ds.row

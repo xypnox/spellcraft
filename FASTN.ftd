@@ -17,7 +17,7 @@ provided-via: xypnox.github.io/spellcraft/ds
 
 
 -- fastn.sitemap:
-;; This is the sidebar that shows the sitemap
+;; Sitemap is also used to show the table of contents.
 
 # Docs: /docs
 
@@ -29,8 +29,9 @@ provided-via: xypnox.github.io/spellcraft/ds
   - Page: /docs/components/page
   - DocPage: /docs/components/doc-page
   - Content Section: /docs/components/section
-  - Buttons: /docs/components/buttons
+  - Code: /docs/components/code
   - Annotations: /docs/components/annotations
+  - Buttons: /docs/components/buttons
 
 - Overview:
 

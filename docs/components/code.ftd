@@ -1,0 +1,19 @@
+-- lib.doc-page: Code
+title: code
+
+-- lib.code: Sample code
+lang: ftd
+
+\-- record person:
+caption name:
+string location:
+optional body bio:
+
+\-- person amitu: Amit Upadhyay
+location: Bangalore, India
+
+Amit is the founder and CEO of FifthTry.
+
+-- end: lib.code
+
+-- end: lib.doc-page

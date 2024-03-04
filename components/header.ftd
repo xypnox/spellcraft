@@ -23,6 +23,9 @@ align-content: left
 	
 		-- ds.row:
 		width: hug-content
+    width if { ftd.device == "mobile" }: fill-container
+    inset: $ds.spaces.inset-square.zero
+    inset if { ftd.device == "mobile" }: $ds.spaces.inset-tall.zero-small
 		link: $header.site-url
 		align-content: left
 		
@@ -34,18 +37,20 @@ align-content: left
 			
 		-- end: ds.row
 
-		-- ds.row:
-		align-content: left
-		spacing: $ds.spaces.horizontal-gap.medium
-		  border: $ds.borders.top.medium
-		  border-color: $inherited.colors.background.base
-		
-			-- header-item: $obj.title
-			$loop$: $header.sections as $obj
-			link: $obj.url
-			is-active: $obj.is-active
-			
-		-- end: ds.row
+    -- ftd.desktop:
+      -- ds.row:
+      align-content: left
+      spacing: $ds.spaces.horizontal-gap.medium
+        border: $ds.borders.top.medium
+        border-color: $inherited.colors.background.base
+      
+        -- header-item: $obj.title
+        $loop$: $header.sections as $obj
+        link: $obj.url
+        is-active: $obj.is-active
+        
+      -- end: ds.row
+    -- end: ftd.desktop
 
 		-- ds.row:
 		spacing: $ds.spaces.horizontal-gap.small
