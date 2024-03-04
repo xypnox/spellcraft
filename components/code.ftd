@@ -78,16 +78,16 @@ overflow-y: auto
 			
 		-- end: ftd.row
 
-		-- ftd.image:
-		if: { code.download != NULL && code.mouse-in }
-		src: $assets.files.static.download.svg
-		src if { code.download-mouse-in }: $assets.files.static.download-hover.svg
-		width.fixed.px: 20
-		height.fixed.px: 20
-		align-self: end
-		anchor: parent
-		top.px: 12
-		right.px: 20
+		;;-- ftd.image:
+		;;if: { code.download != NULL && code.mouse-in }
+		;;src: $assets.files.static.download.svg
+		;;src if { code.download-mouse-in }: $assets.files.static.download-hover.svg
+		;;width.fixed.px: 20
+		;;height.fixed.px: 20
+		;;align-self: end
+		;;anchor: parent
+		;;top.px: 12
+		;;right.px: 20
 		;;$on-mouse-enter$: $ftd.set-bool($a = $code.download-mouse-in, v = true)
 		;;$on-mouse-leave$: $ftd.set-bool($a = $code.download-mouse-in, v = false)
 		;;$on-click$: $download-text(filename = $code.download, text = $code.clean-code)

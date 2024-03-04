@@ -15,6 +15,9 @@ You can start from the spellcraft template inside fifthtry and your site will be
 You can edit pages using the fifthtry editor. You can also use the fifthtry editor to create new pages.
 
 
+;; -- lib.warning: Please take care while using the components.
+
+
 -- lib.heading: Configuring Defaults
 
 -- ds.copy-regular:
