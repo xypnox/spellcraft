@@ -16,10 +16,10 @@ link: /search
 	-- ph.regular: magnifying-glass
 	size: 16
 	
-  -- ftd.desktop:
-	-- ds.copy-regular: Search
-  -- end: ftd.desktop
-	
+	-- ftd.desktop:
+		-- ds.copy-regular: Search
+	-- end: ftd.desktop
+
 -- end: ds.row
 
 -- end: searchbutton

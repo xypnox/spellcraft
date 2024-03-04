@@ -54,17 +54,17 @@ overflow-y: auto
 		top.px: 12
 		right.px: 20
 		right.px if { code.download != NULL }: 56
-    $on-click$: $ftd.copy-to-clipboard(a = $code.clean-code)
-    $on-click$: $ftd.set-string($a = $code.copy-text, v = Copied!)
+		  $on-click$: $ftd.copy-to-clipboard(a = $code.clean-code)
+		  $on-click$: $ftd.set-string($a = $code.copy-text, v = Copied!)
 		
 			-- ph.regular:
 			name: copy
-      size: 18
-
+			   size: 18
+			
 			-- ph.regular:
 			if: { code.copy-text == "null" && code.mouse-in }
 			name: copy
-      size: 18
+			   size: 18
 			
 			-- ph.regular:
 			if: { code.copy-text != "null" }
@@ -91,7 +91,7 @@ overflow-y: auto
 		;;$on-mouse-enter$: $ftd.set-bool($a = $code.download-mouse-in, v = true)
 		;;$on-mouse-leave$: $ftd.set-bool($a = $code.download-mouse-in, v = false)
 		;;$on-click$: $download-text(filename = $code.download, text = $code.clean-code)
-		
+
 	-- end: ftd.row
 
 	-- ftd.code:
