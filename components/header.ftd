@@ -1,5 +1,5 @@
 -- import: fastn/processors as pr
--- import: xypnox.github.io/spellcraft/components/buttons as btn
+-- import: fastn-community.github.io/svg-icons/phosphor as ph
 
 
 
@@ -9,6 +9,7 @@ string site-url: /
 string site-name:
 pr.toc-item list sections:
 pr.toc-item list sub-sections:
+boolean $show-menu: false
 
 -- ds.section-column:
 inner-background.solid: $inherited.colors.background.base
@@ -16,31 +17,69 @@ border: $ds.borders.bottom.small
 margin: $ds.spaces.vertical-gap.zero
 radius: $ds.radius.zero
 align-content: left
+spacing: $ds.spaces.vertical-gap.zero
 ;;shadow: $ds.shadow.medium
 
-	-- ds.row:
-	spacing: $ds.spaces.horizontal-gap.extra-large
+	-- ds.column:
+	 spacing: $ds.spaces.vertical-gap.zero
 	
 		-- ds.row:
-		width: hug-content
-		  width if { ftd.device == "mobile" }: fill-container
-		  inset: $ds.spaces.inset-square.zero
-		  inset if { ftd.device == "mobile" }: $ds.spaces.inset-tall.zero-small
-		link: $header.site-url
-		align-content: left
+		spacing: $ds.spaces.horizontal-gap.extra-large
 		
-			-- ftd.image:
-			   width: hug-content
-			src: $header.site-logo
+			-- ds.row:
+			width: hug-content
+			width if { ftd.device == "mobile" }: fill-container
+			inset: $ds.spaces.inset-tall.zero-small
+			link: $header.site-url
+			align-content: left
 			
-			-- ds.heading-small: $header.site-name
+				-- ftd.image:
+				   width: hug-content
+				src: $header.site-logo
+				
+				-- ds.heading-small: $header.site-name
+				
+			-- end: ds.row
+
+			-- ftd.desktop:
+				-- ds.row:
+				align-content: left
+				spacing: $ds.spaces.horizontal-gap.medium
+				  border: $ds.borders.top.medium
+				  border-color: $inherited.colors.background.base
+				
+					-- header-item: $obj.title
+					$loop$: $header.sections as $obj
+					link: $obj.url
+					is-active: $obj.is-active
+					
+				-- end: ds.row
+			-- end: ftd.desktop
+
+
+			-- ds.row:
+			spacing: $ds.spaces.horizontal-gap.small
+			align-content: right
+			  width: hug-content
 			
+				-- lib.searchbutton:
+				
+				-- ftd.mobile:
+					-- lib.iconbutton: list-dashes
+					enabled: $header.show-menu
+					$on-click$: $ftd.toggle($a = $header.show-menu)
+				-- end: ftd.mobile
+
+			-- end: ds.row
+
 		-- end: ds.row
 
-		-- ftd.desktop:
-			-- ds.row:
+		-- ftd.mobile:
+		if: { header.show-menu }
+
+			-- ds.column:
 			align-content: left
-			spacing: $ds.spaces.horizontal-gap.medium
+			spacing: $ds.spaces.vertical-gap.small
 			  border: $ds.borders.top.medium
 			  border-color: $inherited.colors.background.base
 			
@@ -49,21 +88,20 @@ align-content: left
 				link: $obj.url
 				is-active: $obj.is-active
 				
-			-- end: ds.row
-		-- end: ftd.desktop
+        -- ds.row:
+        if: { ftd.device == "mobile" }
+        width: fill-container
+        height.fixed.px: 12
+        -- end: ds.row
 
-		-- ds.row:
-		spacing: $ds.spaces.horizontal-gap.small
-		align-content: right
-		  width: hug-content
-		
-			-- btn.searchbutton:
-			
-		-- end: ds.row
+			-- end: ds.column
+		-- end: ftd.mobile
 
-	-- end: ds.row
+	-- end: ds.column
+
 
 -- end: ds.section-column
+
 
 -- end: header
 
@@ -80,7 +118,9 @@ boolean $open: false
 width: hug-content
 spacing: $ds.spaces.horizontal-gap.medium
 inset: $ds.spaces.inset-tall.zero-small
+inset if { ftd.device == "mobile" }: $ds.spaces.inset-wide.medium
 border: $ds.borders.bottom.medium
+border if { ftd.device == "mobile" }: $ds.borders.left.medium
 border-color: $inherited.colors.background.base
 border-color if { header-item.is-active }: $inherited.colors.accent.primary
 radius: $ds.radius.zero

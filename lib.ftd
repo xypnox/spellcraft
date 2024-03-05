@@ -1,5 +1,5 @@
 -- import: xypnox.github.io/spellcraft/components/buttons as _
-export: searchbutton
+export: searchbutton, iconbutton
 
 -- import: xypnox.github.io/spellcraft/components/page as _
 export: page

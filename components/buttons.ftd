@@ -23,3 +23,27 @@ link: /search
 -- end: ds.row
 
 -- end: searchbutton
+
+
+
+-- component iconbutton:
+caption icon:
+boolean enabled: false
+
+-- ds.row:
+align-content: center
+inset: $ds.spaces.inset-wide.medium
+radius: $ds.radius.medium
+width: hug-content
+background.solid: $inherited.colors.background.step-1
+border: $ds.borders.uniform.small
+border-color: $ds.colors.border
+color: $ds.colors.text
+color if { $iconbutton.enabled }: $ds.colors.accent.primary
+
+	-- ph.regular: $iconbutton.icon
+	size: 16
+	
+-- end: ds.row
+
+-- end: iconbutton
