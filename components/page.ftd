@@ -17,6 +17,7 @@ children wrapper:
 boolean sidebar: true
 boolean breadcrumb: true
 ds.flush flush: to-header
+boolean $show-toc: false
 
 -- ds.page:
   title: $page.title
@@ -35,23 +36,37 @@ ds.flush flush: to-header
 		
 		-- ds.row:
 		align-content: top-left
-		  spacing: $ds.spaces.vertical-gap.large
+    spacing: $ds.spaces.vertical-gap.large
 		
 			-- render-toc:
-			if: { !ftd.is_empty(page.toc) && page.sidebar }
+			if: { !ftd.is_empty(page.toc) && page.sidebar && ftd.device != "mobile" }
 			toc-obj: $page.toc
 			
 			-- ds.column:
 			align-content: left
 			inset: $ds.spaces.inset-tall.zero-medium
+      inset if { ftd.device == "mobile" }: $ds.spaces.inset-tall.zero-small
 			spacing: $ds.spaces.vertical-gap.large
+
+        -- ds.column:
+        spacing: $ds.spaces.horizontal-gap.zero
 			
 				-- ds.row:
-				    if: { page.breadcrumb }
-				    inset: $ds.spaces.inset-wide.small
+				if: { page.breadcrumb }
+				inset: $ds.spaces.inset-wide.small
+        inset if { ftd.device == "mobile" }: $ds.spaces.inset-square.zero
 				spacing: $ds.spaces.horizontal-gap.small
 				align-content: left
-				
+
+          -- lib.iconbutton: dots-three-outline-vertical
+          if: { ftd.device == "mobile" }
+          $on-click$: $ftd.toggle($a = $page.show-toc)
+
+					-- ds.row:
+          if: { ftd.device == "mobile" }
+          width: hug-content
+          -- end: ds.row
+
 					-- ds.row:
 					link: $page.site-url
 					width: hug-content
@@ -81,6 +96,12 @@ ds.flush flush: to-header
 					link: $page.current-page.url
 					
 				-- end: ds.row
+
+          -- render-toc:
+          if: { page.show-toc && ftd.device == "mobile" && page.sidebar }
+          toc-obj: $page.toc
+
+				-- end: ds.column
 
 				-- ds.column:
 				content: $page.wrapper
@@ -115,9 +136,12 @@ pr.toc-item list toc-obj:
 
 -- ds.column:
 width.fixed.px: 320
+width if { ftd.device == "mobile" }: fill-container
 height.fixed.calc: 100vh
+height if { ftd.device == "mobile" }: fill-container
 align-content: top-left
 border: $ds.borders.right.small
+border if { ftd.device == "mobile" }: $ds.borders.bottom.small
 radius: $ds.radius.zero
 inset: $ds.spaces.inset-tall.zero-medium
 
