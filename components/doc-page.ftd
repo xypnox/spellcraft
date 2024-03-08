@@ -1,6 +1,8 @@
+-- import: fastn/processors as pr
+
 -- component doc-page:
 caption heading:
-string title:
+string title: $doc-page.heading
 children wrapper:
 optional ftd.image-src image:
 children wrapper:

@@ -11,6 +11,9 @@ Content Sections are the building blocks of a page. They can be used to organize
 
 Remember that the section that you are about to see is already in a section!
 
+-- lib.code-preview: Preview
+icon: globe
+
 -- lib.content: An example content section
 image: $assets.files.assets.sampleImage.png
 
@@ -19,5 +22,7 @@ image: $assets.files.assets.sampleImage.png
 	Here's an example of a section with some text and an image:
 	
 -- end: lib.content
+
+-- end: lib.code-preview
 
 -- end: lib.doc-page

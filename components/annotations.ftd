@@ -71,7 +71,7 @@ $note.text
 caption or body text:
 
 -- annotation: Info
-border: $inherited.colors.text
+border: $inherited.colors.border-strong
 color: $inherited.colors.text
 
 $info.text

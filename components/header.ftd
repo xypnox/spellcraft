@@ -62,10 +62,8 @@ spacing: $ds.spaces.vertical-gap.zero
 			align-content: right
 			  width: hug-content
 			
-				-- lib.searchbutton:
-				
 				-- ftd.mobile:
-					-- lib.iconbutton: list-dashes
+					-- lib.icon-button: list-dashes
 					enabled: $header.show-menu
 					$on-click$: $ftd.toggle($a = $header.show-menu)
 				-- end: ftd.mobile

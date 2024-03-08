@@ -1,6 +1,6 @@
 -- import: fastn-community.github.io/svg-icons/phosphor as ph
 
--- component searchbutton:
+-- component search-button:
 
 -- ds.row:
 align-content: left
@@ -22,11 +22,11 @@ link: /search
 
 -- end: ds.row
 
--- end: searchbutton
+-- end: search-button
 
 
 
--- component iconbutton:
+-- component icon-button:
 caption icon:
 boolean enabled: false
 
@@ -39,11 +39,14 @@ background.solid: $inherited.colors.background.step-1
 border: $ds.borders.uniform.small
 border-color: $ds.colors.border
 color: $ds.colors.text
-color if { $iconbutton.enabled }: $ds.colors.accent.primary
+color if { $icon-button.enabled }: $ds.colors.accent.primary
 
-	-- ph.regular: $iconbutton.icon
+	-- ph.regular: $icon-button.icon
 	size: 16
 	
 -- end: ds.row
 
--- end: iconbutton
+-- end: icon-button
+
+
+
