@@ -207,8 +207,8 @@
     },
     "reference.ftd": {
       "name": "reference.ftd",
-      "checksum": "E9D0B1080D42BB0CBECF4D7F3648B6D903CD9562A06DBEA6330F2DA9E1D8FCE6",
-      "size": 2864
+      "checksum": "781E9B462F17D9B582C64B3CE4C8F050E8F104F7B9A7844F0B27C98EF8E8D9E1",
+      "size": 3240
     },
     "themecolors.ftd": {
       "name": "themecolors.ftd",
@@ -222,5 +222,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-  "checksum": "4727596907ABE7BDDA9FDD00A42DED14C95A4BB0D1A621CF0D9EB3959FD21D73"
+  "checksum": "416F86A3C58F542644E22D7E3EF423A9B4CA853AB635923636CC58AE9E1F2786"
 }
