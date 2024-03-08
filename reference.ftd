@@ -1,5 +1,4 @@
 -- lib.page: Reference
-breadcrumb: false
 
 
 ;; We will implement reference for the following components

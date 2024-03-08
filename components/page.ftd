@@ -3,7 +3,7 @@
 -- import: fastn-community.github.io/svg-icons/phosphor as ph
 
 -- component page:
-caption title:
+caption title: 
 ftd.image-src site-logo: $common.site-logo
 string site-url: $common.site-url
 string site-name: $common.site-name
@@ -58,7 +58,7 @@ boolean $show-toc: false
 				spacing: $ds.spaces.horizontal-gap.small
 				align-content: left
 
-          -- lib.iconbutton: dots-three-outline-vertical
+          -- lib.icon-button: dots-three-outline-vertical
           if: { ftd.device == "mobile" }
           $on-click$: $ftd.toggle($a = $page.show-toc)
 

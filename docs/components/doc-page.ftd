@@ -5,6 +5,9 @@ title: doc-page
 
 -- ds.copy-regular: This is a regular copy
 
+-- lib.code-preview: Doc Page
+icon: google-chrome-logo
+
 -- lib.doc-page: doc-page
 title: doc-page
 image: $assets.files.assets.sampleImage.png
@@ -15,4 +18,7 @@ image: $assets.files.assets.sampleImage.png
 	
 -- end: lib.doc-page
 
+-- end: lib.code-preview
+
 -- end: lib.doc-page
+

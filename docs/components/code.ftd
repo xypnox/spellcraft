@@ -1,19 +1,79 @@
 -- lib.doc-page: Code
 title: code
 
--- lib.code: Sample code
+-- lib.code: Code block code
 lang: ftd
+icon: code
 
-\-- record person:
-caption name:
-string location:
-optional body bio:
-
-\-- person amitu: Amit Upadhyay
-location: Bangalore, India
-
-Amit is the founder and CEO of FifthTry.
+\-- lib.code: Code block code
+lang: ftd
+icon: code-block
 
 -- end: lib.code
+
+-- ds.heading-medium: Code Preview
+
+-- lib.code: FTD Code
+lang: ftd
+icon: code
+
+  \-- lib.code-preview: Sneaky Browser
+  icon: google-chrome-logo
+  show-window-controls: true
+
+  \-- lib.heading: Look at the window controls
+
+  \-- end: lib.code-preview
+
+
+
+  \-- lib.code-preview: Pindows
+  icon: windows-logo
+
+  \-- lib.heading: This might be windows
+
+  \-- end: lib.code-preview
+
+
+
+  \-- lib.code-preview: Plain
+
+  \-- lib.heading: Simple straight forward code preview
+
+  \-- end: lib.code-preview
+
+-- end: lib.code
+
+-- lib.code-preview: Preview
+
+-- lib.heading: Code Preview content
+
+
+  -- lib.code-preview: Sneaky Browser
+  icon: google-chrome-logo
+  show-window-controls: true
+
+  -- lib.heading: Look at the window controls
+
+  -- end: lib.code-preview
+
+
+
+  -- lib.code-preview: Pindows
+  icon: windows-logo
+
+  -- lib.heading: This might be windows
+
+  -- end: lib.code-preview
+
+
+
+  -- lib.code-preview: Plain
+
+  -- lib.heading: Simple straight forward code preview
+
+  -- end: lib.code-preview
+
+-- end: lib.code-preview
 
 -- end: lib.doc-page

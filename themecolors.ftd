@@ -15,8 +15,8 @@ light: rgba(0, 0, 0, 0.8)
 dark: rgba(0, 0, 0, 0.8)
 
 -- ftd.color code-:
-light: #eff1f5
-dark: #2B303B
+light: #ebe4ff
+dark: #1C1526
 
 -- ftd.background-colors background-:
 base: $base-
@@ -252,11 +252,11 @@ light: #e3f0c4
 dark: #e3f0c4
 
 -- ftd.color success-text-:
-light: #467b28
+light: #3d741f
 dark: #53a988
 
 -- ftd.color success-border-:
-light: #3d741f
+light: #52bd18
 dark: #53a988
 
 -- ftd.btb success-btb-:
@@ -290,7 +290,7 @@ light: #966220
 dark: #b48f38
 
 -- ftd.color warning-border-:
-light: #966220
+light: #dba132
 dark: #b48f38
 
 -- ftd.btb warning-btb-:

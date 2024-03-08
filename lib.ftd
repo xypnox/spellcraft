@@ -1,5 +1,5 @@
 -- import: xypnox.github.io/spellcraft/components/buttons as _
-export: searchbutton, iconbutton
+export: search-button, icon-button
 
 -- import: xypnox.github.io/spellcraft/components/page as _
 export: page
@@ -20,4 +20,4 @@ export: note, warning, info, tip, danger, annotation
 export: heading
 
 -- import: xypnox.github.io/spellcraft/components/code as _
-export: code
+export: code, code-preview

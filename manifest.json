@@ -82,33 +82,33 @@
     },
     "components/annotations.ftd": {
       "name": "components/annotations.ftd",
-      "checksum": "1FF2144EA3C0069279FDC437F921BE8902680EE9BD493DAF327E79DCEEFE98EB",
-      "size": 1579
+      "checksum": "62E4C77ABA68FE34688B3921225941C78AF1389963DF07A84173F27F3A37D90F",
+      "size": 1588
     },
     "components/buttons.ftd": {
       "name": "components/buttons.ftd",
-      "checksum": "6015F6D07DB8EB77F1E5239C8A7E5AFE98C2BB12D8ED6557C86CA4D649B1FC59",
-      "size": 1001
+      "checksum": "E39896E56280A68988E8B673C27E9F3FF9E2C8980540A9A344602ADE24CAB14E",
+      "size": 1010
     },
     "components/code.ftd": {
       "name": "components/code.ftd",
-      "checksum": "4729B963D1B4362EFA2E85CF137E527EDC500B0C32B2E7D2FE0CF23BCAC5E5A0",
-      "size": 4146
+      "checksum": "C7BA5F841CB28B7A819E6E9B5E7108E83A53AACDC32F4D1FD9EE37164DF52CBC",
+      "size": 4219
     },
     "components/doc-page.ftd": {
       "name": "components/doc-page.ftd",
-      "checksum": "CF2698D9B40D6EA9316E17B562818445949FE118E30D1741F149C98779CEB05E",
-      "size": 392
+      "checksum": "DDBDF1BF98434AC18AE4136AE16D1B3A53D2013F5906B03235C176C1306AEE4C",
+      "size": 445
     },
     "components/header.ftd": {
       "name": "components/header.ftd",
-      "checksum": "E9AD05A3ADE533BCBBDEF2ED7F529806BA54AFE6D3853D36C6EF510CBCAE2057",
-      "size": 3187
+      "checksum": "DA687222C8991E10D6354020195A758B63C9936E2F34C995C54AFDC0826C9B6B",
+      "size": 3158
     },
     "components/page.ftd": {
       "name": "components/page.ftd",
-      "checksum": "9F7497EE3F9CB609CAE539D8A2A226F05D030CD075E114AD15526C600D152D6D",
-      "size": 5193
+      "checksum": "EA9683E0B71936E094C1D2A3EAA73C07083D961B28F95FE957D54ED37F18310E",
+      "size": 5195
     },
     "components/section.ftd": {
       "name": "components/section.ftd",
@@ -142,23 +142,23 @@
     },
     "docs/components/annotations.ftd": {
       "name": "docs/components/annotations.ftd",
-      "checksum": "E24BE74666B9804A3F042D80548F1E4C92D31A391FD32F9D34D823BF7B884058",
-      "size": 389
+      "checksum": "592A91C380F7A9BA4F42CDCBBBF8E2C9F200130079CB79CE01792A4A8CF1BD08",
+      "size": 929
     },
     "docs/components/buttons.ftd": {
       "name": "docs/components/buttons.ftd",
-      "checksum": "3818E38C7AE2B9E83AFF838F5322DA7C0901E2E621B8433F24FE9629FB809EAB",
-      "size": 115
+      "checksum": "F1218397F9E860D5BBCEFE00EDCB81C77AA18C09434312CD13F43E9484EA2296",
+      "size": 116
     },
     "docs/components/code.ftd": {
       "name": "docs/components/code.ftd",
-      "checksum": "B2F23DE4E394ABFBED05FA02FD438768D23D43AA25EBE6832F75C1B6DF1958F0",
-      "size": 282
+      "checksum": "61625EDC30905833FE2EC2E8DC9C84C5AD84F2E1674E489DC84996572F2294C2",
+      "size": 1205
     },
     "docs/components/doc-page.ftd": {
       "name": "docs/components/doc-page.ftd",
-      "checksum": "6C47A3F4529F430531063BBE42D9475AB1DE83DB0384B66C19ED25125D5CC9D9",
-      "size": 317
+      "checksum": "509E2FDF4FCB6CF8BFA8B022B6719D65B08534FCA8221C9F74C3DF19C968ED9D",
+      "size": 400
     },
     "docs/components/index.ftd": {
       "name": "docs/components/index.ftd",
@@ -167,18 +167,18 @@
     },
     "docs/components/page.ftd": {
       "name": "docs/components/page.ftd",
-      "checksum": "2D1D31A41CC6DD7430631C983F176744F2DE5B70F2ED4A32F79B5A6A212A4D69",
-      "size": 560
+      "checksum": "E33DE82B718D0219A8F00694BD04EDAECE130E68A1AE823C3B6E63E487CAF2EF",
+      "size": 642
     },
     "docs/components/section.ftd": {
       "name": "docs/components/section.ftd",
-      "checksum": "293D34D700801DD6A6F4B0458B1AFA655AD864BED94FF877D19B28D8B102728D",
-      "size": 643
+      "checksum": "F176EB4752A81F37E5D88E7389D441FAE6076FF91B07D4AE676A381C8D1FB522",
+      "size": 711
     },
     "docs/fifthtry.ftd": {
       "name": "docs/fifthtry.ftd",
-      "checksum": "F41731A384C1D28AAA03A5C302E6BDA07C64A615A2C046F81B0708BD4D13702A",
-      "size": 712
+      "checksum": "3C6EC5FCC29391932F6B9C043139A4D2ED8C14001F65F703F993C4165CCB59DD",
+      "size": 696
     },
     "docs/quickstart.ftd": {
       "name": "docs/quickstart.ftd",
@@ -202,17 +202,17 @@
     },
     "lib.ftd": {
       "name": "lib.ftd",
-      "checksum": "13BDAA30D841132BADF8EA786D2F3A712D5D8DF8EC85D1707541162AA59BA228",
-      "size": 688
+      "checksum": "7163162CF95FA0F3FEE7560D2CB3862B69B0BA388076D3CCBE55C5E5534A6B04",
+      "size": 704
     },
     "reference.ftd": {
       "name": "reference.ftd",
-      "checksum": "138D7FDC5D53E8CEB5DA484E6E4D66BC2BA1343327D4B160F2907E154CE53161",
-      "size": 2882
+      "checksum": "E9D0B1080D42BB0CBECF4D7F3648B6D903CD9562A06DBEA6330F2DA9E1D8FCE6",
+      "size": 2864
     },
     "themecolors.ftd": {
       "name": "themecolors.ftd",
-      "checksum": "7DEB5FFB7D6E2A638E6522A9B11A8CFD811836AAF82430F21C20CA00E8931800",
+      "checksum": "51F37D68FA6E8B0A0407E885FBF14F2F67C602B5FAE59F9C770F72CFFABDCC74",
       "size": 6481
     },
     "vercel.json": {
@@ -222,5 +222,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-  "checksum": "4D57AB7FAE2D67A81A0BBE7AA87DF555BCFF9C1F5AA8781CC105D8A0B0E1E25D"
+  "checksum": "4727596907ABE7BDDA9FDD00A42DED14C95A4BB0D1A621CF0D9EB3959FD21D73"
 }
