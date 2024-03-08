@@ -47,6 +47,47 @@ spacing: $ds.spaces.vertical-gap.medium
 	-- end: ds.section-column
 
 	;;
+
+	-- lib.content: Annotations
+	
+		-- lib.info: This is a info, you can listen or ignore this!
+		
+		-- lib.note: This is a note, take care about this!
+		
+		-- lib.tip: This is a tip, it might help you!
+		
+		-- lib.warning: This is a warning, you better take care about this!
+		
+		-- lib.danger: This is a warning, you better take care about this!
+		
+	-- end: lib.content
+
+	-- lib.content: Code
+
+    -- lib.code: Code block code
+    lang: ftd
+    icon: code
+
+    \-- lib.code: Code block code
+    lang: ftd
+    icon: code-block
+
+    \-- end: lib.code
+
+  -- end: lib.content
+
+  -- lib.content: Code Preview
+
+    -- lib.code-preview: Code block code
+    icon: globe
+
+    -- lib.heading: Whatup
+
+    -- end: lib.code-preview
+
+  -- end: lib.content
+
+
 	-- ds.heading-large: Buttons and Links
 	
 	
@@ -106,21 +147,8 @@ spacing: $ds.spaces.vertical-gap.medium
 
 	-- end: ds.section-column
 
-	-- lib.content: Annotations
-	
-		-- lib.info: This is a info, you can listen or ignore this!
-		
-		-- lib.note: This is a note, take care about this!
-		
-		-- lib.tip: This is a tip, it might help you!
-		
-		-- lib.warning: This is a warning, you better take care about this!
-		
-		-- lib.danger: This is a warning, you better take care about this!
-		
-	-- end: lib.content
-
 -- end: ds.section-column
+
 
 
 
