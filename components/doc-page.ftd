@@ -2,25 +2,40 @@
 
 -- component doc-page:
 caption heading:
-string title: $doc-page.heading
+optional string title: $doc-page.heading
 children wrapper:
 optional ftd.image-src image:
 children wrapper:
 
--- lib.page: $doc-page.title
+-- lib.page: $doc-page.heading
+title: $doc-page.title
 sidebar: true
 breadcrumb: true
 
-	-- lib.content: $doc-page.heading
-	image: $doc-page.image
-	
-		-- ds.column:
-		align-content: left
-		 content: $doc-page.wrapper
-		
-		-- end: ds.column
+  -- ds.section-column:
+  align-content: left
+  spacing: $ds.spaces.vertical-gap.large
+  margin: $ds.spaces.vertical-gap.large
 
-	-- end: lib.content
+    -- ds.heading-large: $doc-page.heading
+    if: { $doc-page.heading }
+    
+    -- ftd.image:
+    if: { $doc-page.image }
+    src: $doc-page.image
+     width.fixed.percent: 100
+     height.fixed.px: 200
+    fit: cover
+    border-radius.px: 20
+    
+    -- ds.column:
+    align-content: left
+    spacing: $ds.spaces.vertical-gap.large
+     content: $doc-page.wrapper
+    
+    -- end: ds.column
+
+  -- end: ds.section-column
 
 -- end: lib.page
 

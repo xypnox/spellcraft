@@ -19,9 +19,9 @@ provided-via: xypnox.github.io/spellcraft/ds
 -- fastn.sitemap:
 ;; Sitemap is also used to show the table of contents.
 
-# Docs: /docs
+# Docs: /docs/quickstart
 
-- Getting started: /docs
+- Getting started: 
   - Quickstart: /docs/quickstart
   - Fifthtry: /docs/fifthtry
 
@@ -33,19 +33,18 @@ provided-via: xypnox.github.io/spellcraft/ds
   - Annotations: /docs/components/annotations
   - Buttons: /docs/components/buttons
 
-- Overview:
-
 # Example: /api-docs/getting-started
 
-- Getting started: /api-docs/getting-started
-  - Quickstart:
-  - Development:
+- Getting started: 
+  - Quickstart: /api-docs/getting-started
   - Development:
     - react:
     - NodJs:
     - Java:
 
-- Large Page with Large Title: /api-docs/large-doc
+- Large:
+  - Large Page with Large Title: /api-docs/large-doc
+  - Large Code: /api-docs/large-code
 
 # Contribute: /contributing/guide
 

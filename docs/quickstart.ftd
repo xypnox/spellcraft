@@ -2,33 +2,42 @@
 title: Quickstart
 image: $assets.files.assets.sampleImage.png
 
--- lib.heading: Installation
-
--- ds.copy-regular:
+-- lib.section: Installation
 
 You can clone the theme template and run your site locally or build and manage your site with [fastn](https://fastn.com).
 
 -- lib.tip: It is recommended that you use [fifthtry](https://fifthtry.com) to host your site.
 
+-- end: lib.section
 
--- lib.heading: Structure
+
+
+-- lib.section: Structure
 
 -- ds.copy-regular:
 
-The structure of the website is defined in `FASTN.ftd`:
+The structure of the website is defined in `FASTN.ftd` as `--fastn.sitemap:`. The Sitemap is also used to show the table of contents.
 
 -- lib.code: Code
 icon: code
 
 \-- fastn.sitemap:
-;; Sitemap is also used to show the table of contents.
 
-# Docs: /docs
+# Docs: /docs/quickstart
+\;; Notice that the # marks a entire tab of the website. 
 
-- Getting started: /docs
-  - Quickstart: /docs/quickstart
-  - Fifthtry: /docs/fifthtry
 
+\;; The list of pages is defined in the sitemap.
+\;; You can define pages without a link to them in the sitemap.
+\;; They will not be linked.
+- Getting started: \;; Such as this one
+
+  \;; Each of the links point to a file in your root folder 
+  - Quickstart: /docs/quickstart \;; /docs/quickstart.ftd 
+  - Fifthtry: /docs/fifthtry \;; /docs/fifthtry.ftd
+  \;; etc.
+
+\;; Another title in the table of contents, which has several pages as children.
 - Components:
   - Page: /docs/components/page
   - DocPage: /docs/components/doc-page
@@ -37,33 +46,36 @@ icon: code
   - Annotations: /docs/components/annotations
   - Buttons: /docs/components/buttons
 
-- Overview:
-
 # Example: /api-docs/getting-started
 
 - Getting started: /api-docs/getting-started
   - Quickstart:
   - Development:
-  - Development:
+  - Development: \;; We can have a lot of nesting, although it is not recommended.
     - react:
     - NodJs:
     - Java:
 
-- Large Page with Large Title: /api-docs/large-doc
-
-# Contribute: /contributing/guide
-
-- Github: /contributing/github
-- Code of Conduct: /contributing/code-of-conduct
-
 -- end: lib.code
 
--- lib.heading: Page
+-- end: lib.section
+
+-- lib.section: Page
 
 -- ds.copy-regular:
 
 Spellcraft comes with two page components: [`page`](/docs/components/page) and [`doc-page`](/docs/components/doc-page). `Page` is used for regular pages and `DocPage` is used for documentation pages.
 
+-- lib.code: Code
 
+\-- lib.page: Page
+
+\-- ds.copy-regular: This is the content of the page
+
+\-- end: lib.page
+
+-- end: lib.code
+
+-- end: lib.section
 
 -- end: lib.doc-page

@@ -31,6 +31,8 @@ icon: globe
 
 -- lib.danger: This is a warning, you better take care about this!
 
+-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+
 -- end: lib.code-preview
 
 -- end: lib.doc-page

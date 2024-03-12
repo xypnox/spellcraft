@@ -14,14 +14,14 @@ Remember that the section that you are about to see is already in a section!
 -- lib.code-preview: Preview
 icon: globe
 
--- lib.content: An example content section
+-- lib.section: An example content section
 image: $assets.files.assets.sampleImage.png
 
 	-- ds.copy-regular:
 	
 	Here's an example of a section with some text and an image:
 	
--- end: lib.content
+-- end: lib.section
 
 -- end: lib.code-preview
 

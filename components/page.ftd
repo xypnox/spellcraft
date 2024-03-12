@@ -3,7 +3,9 @@
 -- import: fastn-community.github.io/svg-icons/phosphor as ph
 
 -- component page:
-caption title: 
+caption captionTitle: 
+optional string title: 
+optional ftd.image-src image:
 ftd.image-src site-logo: $common.site-logo
 string site-url: $common.site-url
 string site-name: $common.site-name
@@ -20,7 +22,8 @@ ds.flush flush: to-header
 boolean $show-toc: false
 
 -- ds.page:
-  title: $page.title
+  title if { page.title == NULL }: $page.title
+  title: $page.captionTitle
 
 	-- ds.section-column:
 	 spacing: $ds.spaces.vertical-gap.zero

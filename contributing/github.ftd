@@ -1,6 +1,6 @@
 -- lib.page: Github
 
--- lib.content: Github
+-- lib.section: Github
 
 	-- ds.copy-regular:
 	
@@ -9,6 +9,6 @@
 	-- ds.link: Repo
 	link: https://github.com/xypnox/spellcraft
 	
--- end: lib.content
+-- end: lib.section
 
 -- end: lib.page

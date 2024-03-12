@@ -2,8 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "1F6D89F3A8E9323068B0B5FA4882790F04780CC02D8C1136199CCDCE385A4EEA",
-      "size": 1454
+      "checksum": "5D31622D6C1623E5C849D56BD96C473BC6468D7ED5944AFF00D2D0AEC23AE8F3",
+      "size": 1479
     },
     "README.md": {
       "name": "README.md",
@@ -19,6 +19,11 @@
       "name": "api-docs/getting-started.ftd",
       "checksum": "92EBD298D43B86239DBED448C9BA3367D971CF8DF41DE999F3ACDED333D123E4",
       "size": 292
+    },
+    "api-docs/large-code.ftd": {
+      "name": "api-docs/large-code.ftd",
+      "checksum": "4DA237BA99C2624885C8A7BE9BDD3BC4D3DE0FFBFECCA285EB54E79497C62060",
+      "size": 10332
     },
     "api-docs/large-doc.ftd": {
       "name": "api-docs/large-doc.ftd",
@@ -92,13 +97,18 @@
     },
     "components/code.ftd": {
       "name": "components/code.ftd",
-      "checksum": "C7BA5F841CB28B7A819E6E9B5E7108E83A53AACDC32F4D1FD9EE37164DF52CBC",
-      "size": 4219
+      "checksum": "454CE5A79734ED144475776A1F1BF48B8F86906CD10FE54AC432E0CC31B89989",
+      "size": 4579
     },
     "components/doc-page.ftd": {
       "name": "components/doc-page.ftd",
-      "checksum": "DDBDF1BF98434AC18AE4136AE16D1B3A53D2013F5906B03235C176C1306AEE4C",
-      "size": 445
+      "checksum": "75CF486CBC4BFB34C5E8209A319E2B13ABC7B9C0562576AA32619B015527B2DA",
+      "size": 856
+    },
+    "components/doc-section.ftd": {
+      "name": "components/doc-section.ftd",
+      "checksum": "F56C2C7C03A5CCA8FD0F4FE7BF77FAFBB3E8AAA651C90352208A5EE5E4EA9AB5",
+      "size": 1073
     },
     "components/header.ftd": {
       "name": "components/header.ftd",
@@ -107,13 +117,8 @@
     },
     "components/page.ftd": {
       "name": "components/page.ftd",
-      "checksum": "EA9683E0B71936E094C1D2A3EAA73C07083D961B28F95FE957D54ED37F18310E",
-      "size": 5195
-    },
-    "components/section.ftd": {
-      "name": "components/section.ftd",
-      "checksum": "7BF828B68CB71E399EC155470C5B1D9C8EBCE77267363C2CF9A5FCCB1A37B1DC",
-      "size": 928
+      "checksum": "ECFEDACE9B6CD53B56490A22E7ADBE3352361EF6864019F11C44890E65DF7374",
+      "size": 5310
     },
     "components/typography.ftd": {
       "name": "components/typography.ftd",
@@ -122,17 +127,17 @@
     },
     "contributing/code-of-conduct.ftd": {
       "name": "contributing/code-of-conduct.ftd",
-      "checksum": "9CEBF8A31A4FEC4E285D980A305C0EF00259D3C11B6BD8755F499AA8B0480301",
+      "checksum": "5BC9F58E4820CA0649162377E7A973A53FFA8BC4E224A223CEA375C2977AB216",
       "size": 240
     },
     "contributing/github.ftd": {
       "name": "contributing/github.ftd",
-      "checksum": "1019F7C79436F32CE699278F4B8077DE15F035FAD3AD670529CEC37E9F1C1C54",
+      "checksum": "4888C99BF297D12E3D30F1CA003B5AE0667E03D39CC53D5AE60FF17425FBF038",
       "size": 222
     },
     "contributing/guide.ftd": {
       "name": "contributing/guide.ftd",
-      "checksum": "57E40E08DCEC9E95CD0146A6914742CF45B37AFA8EABD73032891CC51772B175",
+      "checksum": "41ABC9BB52097120BFED5E8F6C48507975BD6E4FF7EDEB4538F858386CAA3176",
       "size": 225
     },
     "docs.ftd": {
@@ -142,8 +147,8 @@
     },
     "docs/components/annotations.ftd": {
       "name": "docs/components/annotations.ftd",
-      "checksum": "592A91C380F7A9BA4F42CDCBBBF8E2C9F200130079CB79CE01792A4A8CF1BD08",
-      "size": 929
+      "checksum": "D5E6F3358E185B07EAA99868654E5C03309DDED17CA93364CB30AFC13CA02631",
+      "size": 1597
     },
     "docs/components/buttons.ftd": {
       "name": "docs/components/buttons.ftd",
@@ -167,12 +172,12 @@
     },
     "docs/components/page.ftd": {
       "name": "docs/components/page.ftd",
-      "checksum": "E33DE82B718D0219A8F00694BD04EDAECE130E68A1AE823C3B6E63E487CAF2EF",
-      "size": 642
+      "checksum": "CD56BBEDF42755F51D90E63CF1060DB96AD99981D5C5DCEBF3ECF46F374C2841",
+      "size": 1539
     },
     "docs/components/section.ftd": {
       "name": "docs/components/section.ftd",
-      "checksum": "F176EB4752A81F37E5D88E7389D441FAE6076FF91B07D4AE676A381C8D1FB522",
+      "checksum": "647A28E5A35F88585B073167EFDD09E34E4A7DB9704A8922968435C5E7490C7C",
       "size": 711
     },
     "docs/fifthtry.ftd": {
@@ -182,8 +187,8 @@
     },
     "docs/quickstart.ftd": {
       "name": "docs/quickstart.ftd",
-      "checksum": "B7EC33814E3CEF1DC84155B450A1DE1299311FAA780BE309D4C70039A0A91F5B",
-      "size": 1561
+      "checksum": "CF0FAD9142A8B51342A58585C3DE2E3AAC549A15CF8A0BD94697C9DCF28DEF58",
+      "size": 2070
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -197,17 +202,17 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "1D2ABC007D251A4AEF1875F866179EF704745129218ADB1FE1A161664B57CEF3",
+      "checksum": "6E7789796BF661F88AB245BBCA91737B3CF1FBDD87EB37A0A112B4C99B536EE4",
       "size": 1771
     },
     "lib.ftd": {
       "name": "lib.ftd",
-      "checksum": "7163162CF95FA0F3FEE7560D2CB3862B69B0BA388076D3CCBE55C5E5534A6B04",
-      "size": 704
+      "checksum": "FE4046B204AFEBD0BE52E9D76DD17181B401D0F36117E65922FD6CC014ADECEE",
+      "size": 708
     },
     "reference.ftd": {
       "name": "reference.ftd",
-      "checksum": "781E9B462F17D9B582C64B3CE4C8F050E8F104F7B9A7844F0B27C98EF8E8D9E1",
+      "checksum": "950B2C65CE8C7FB1F3CC1B8F6F1A86FFEA436F5C9F15C94BE302480C90AD343D",
       "size": 3240
     },
     "themecolors.ftd": {
@@ -222,5 +227,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-  "checksum": "DE87AA8F117F4AB6AD9B69A99F2AF96A1E384D99DBDF18EEECF6D706055FF466"
+  "checksum": "EC59150B13EF97A93398363086D3EE3B98C6B645960167069345E3CF8D9201DC"
 }

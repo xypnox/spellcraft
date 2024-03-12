@@ -1,6 +1,6 @@
 -- lib.page: Code of Conduct
 
--- lib.content: Code of Conduct
+-- lib.section: Code of Conduct
 
 	-- ds.copy-regular:
 	
@@ -9,6 +9,6 @@
 	-- ds.link: Repo
 	link: https://github.com/xypnox/spellcraft
 	
--- end: lib.content
+-- end: lib.section
 
 -- end: lib.page

@@ -48,7 +48,7 @@ spacing: $ds.spaces.vertical-gap.medium
 
 	;;
 
-	-- lib.content: Annotations
+	-- lib.section: Annotations
 	
 		-- lib.info: This is a info, you can listen or ignore this!
 		
@@ -60,9 +60,9 @@ spacing: $ds.spaces.vertical-gap.medium
 		
 		-- lib.danger: This is a warning, you better take care about this!
 		
-	-- end: lib.content
+	-- end: lib.section
 
-	-- lib.content: Code
+	-- lib.section: Code
 
     -- lib.code: Code block code
     lang: ftd
@@ -74,9 +74,9 @@ spacing: $ds.spaces.vertical-gap.medium
 
     \-- end: lib.code
 
-  -- end: lib.content
+  -- end: lib.section
 
-  -- lib.content: Code Preview
+  -- lib.section: Code Preview
 
     -- lib.code-preview: Code block code
     icon: globe
@@ -85,7 +85,7 @@ spacing: $ds.spaces.vertical-gap.medium
 
     -- end: lib.code-preview
 
-  -- end: lib.content
+  -- end: lib.section
 
 
 	-- ds.heading-large: Buttons and Links
