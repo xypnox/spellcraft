@@ -129,6 +129,7 @@ optional caption caption:
 optional string icon:
 children wrapper:
 optional boolean show-window-controls: false
+optional ftd.resizing height:
 
   -- ds.column:
   background.solid: $inherited.colors.background.step-1
@@ -176,16 +177,27 @@ optional boolean show-window-controls: false
 
   -- end: ds.row
 
-  -- ds.column:
-  content: $code-preview.wrapper
-  border: $ds.borders.uniform.medium
+  -- ftd.column:
+  width: fill-container
+  children: $code-preview.wrapper
   border-color: $inherited.colors.background.step-1
+  spacing.fixed.px: 12
   background.solid: $inherited.colors.background.base
-  inset: $ds.spaces.inset-square.medium
-  radius: $ds.radius.large
-  align-content: top-left
+  border-top-left-radius.px: 12
+  border-top-right-radius.px: 12
+  border-bottom-left-radius.px: 12
+  border-bottom-right-radius.px: 12
+  padding-vertical.px: 12
+  padding-horizontal.px: 12
+  border-top-width.px: 2
+  border-bottom-width.px: 2
+  border-left-width.px: 2
+  border-right-width.px: 2
+	overflow-y: auto
+	max-height if { code-preview.height != NULL }: $code-preview.height
+  max-height.fixed.px: 800
   
-  -- end: ds.column
+  -- end: ftd.column
 
   -- end: ds.column
 

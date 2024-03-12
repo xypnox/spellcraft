@@ -1,0 +1,59 @@
+-- lib.doc-page: Annotations
+title: Annotations
+
+-- ds.copy-regular: Annotations are a way to add information to your documentation, help your users to understand your code and documentation.
+
+-- lib.code: Code
+icon: code
+
+\-- lib.info: This is a info, you can listen or ignore this!
+
+\-- lib.note: This is a note, take care about this!
+
+\-- lib.tip: This is a tip, it might help you!
+
+\-- lib.warning: This is a warning, you better take care about this!
+
+\-- lib.danger: This is a warning, you better take care about this!
+
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+
+-- end: lib.code
+
+-- lib.code-preview: Preview
+icon: globe
+
+-- lib.info: This is a info, you can listen or ignore this!
+
+-- lib.note: This is a note, take care about this!
+
+-- lib.tip: This is a tip, it might help you!
+
+-- lib.warning: This is a warning, you better take care about this!
+
+-- lib.danger: This is a warning, you better take care about this!
+
+-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+
+-- end: lib.code-preview
+
+
+-- lib.code: Code
+icon: code
+
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+\-- lib.tip: Oooh lala a very very very very very very very very very very very very very very very very very very very very very very very very long Tip. With a very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long very very very very very very very very very very very very very very very very very very very very very very very very long text.
+
+-- end: lib.code
+
+-- end: lib.doc-page

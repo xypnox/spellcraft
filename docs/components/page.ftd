@@ -3,31 +3,64 @@
 -- lib.doc-page: Page
 title: Page
 
+-- lib.section:
+
 -- ds.copy-regular:
 
 A page is the root of the website. It contains layout, navigation, and other global elements and wraps around the content of the website.
 
--- ds.copy-regular:
+-- lib.tip: If you want to create a page with documentation layout, use [doc-page](/docs/components/doc-page) instead. Which extends `page` and adds meaningful defaults to the properties.
 
-Remember that the page that you are about to see is already in a page!
+-- end: lib.section
 
--- lib.code-preview: Doc Page
-icon: google-chrome-logo
+-- lib.section: Usage
+-- lib.code: Usage
+icon: code
+
+\-- lib.page: Page
+	 \-- ds.copy-regular: This is the content of the page.
+\-- end: lib.page
+-- end: lib.code
+
+-- ds.copy-regular: Remember that the page that you are about to see is already in a page!
+
+-- lib.code-preview: Preview
+icon: globe
+height.fixed.px: 500
 
 -- lib.page: Page
-
-
-	-- lib.content: Page
-	image: $assets.files.assets.sampleImage.png
-	
-		-- ds.copy-regular:
-		
-		This is the content of the page.
-		
-	-- end: lib.content
-
+	 -- ds.copy-regular: This is the content of the page.
 -- end: lib.page
 
 -- end: lib.code-preview
+
+-- end: lib.section
+
+-- lib.section: Properties
+
+-- lib.code: Properties
+icon: brackets-curly
+
+\-- lib.page: 
+\;; Heading of the page
+caption captionTitle:
+optional string title:
+\;; Optional html title of the page, defaults to the caption
+optional ftd.image-src image:
+\;; Derived from common
+ftd.image-src site-logo: $common.site-logo 
+string site-url: $common.site-url
+string site-name: $common.site-name
+\;; The children passed to the page
+children wrapper:
+\;; Whether to show the sidebar
+boolean sidebar: true
+\;; Whether to show the breadcrumb
+boolean breadcrumb: true
+
+
+-- end: lib.section
+
+
 
 -- end: lib.doc-page

@@ -1,11 +1,11 @@
 -- lib.page: Guide
 
--- lib.content: Contributing to Spellcraft
+-- lib.section: Contributing to Spellcraft
 
 	-- ds.copy-regular:
 	
 	Spellcraft is a open theme and welcomes suggestions for improvements and bug fixes all the same.
 	
--- end: lib.content
+-- end: lib.section
 
 -- end: lib.page

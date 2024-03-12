@@ -7,8 +7,8 @@ export: page
 -- import: xypnox.github.io/spellcraft/components/doc-page as _
 export: doc-page
 
--- import: xypnox.github.io/spellcraft/components/section as _
-export: content
+-- import: xypnox.github.io/spellcraft/components/doc-section as _
+export: section
 
 -- import: xypnox.github.io/spellcraft/components/header as _
 export: header

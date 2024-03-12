@@ -1,8 +1,9 @@
 ;; Component for a section with a heading and an image and some content
 ;; It forms one cohesive content section of docs displayed in a single location together.
--- component content:
+-- component section:
 ;; Heading of the section
-caption heading:
+optional caption heading:
+optional body body:
 ;; Image to be displayed just after the heading or placed relative to the section
 optional ftd.image-src image:
 ;; The content of the section
@@ -12,28 +13,33 @@ children wrapper:
 
 -- ds.section-column:
 align-content: left
-spacing: $ds.spaces.vertical-gap.large
-margin: $ds.spaces.vertical-gap.large
+spacing: $ds.spaces.vertical-gap.medium
+margin: $ds.spaces.vertical-gap.medium
 
-	-- ds.heading-large: $content.heading
+	-- ds.heading-medium: $section.heading
+  if: { $section.heading }
 	
 	-- ftd.image:
-	if: { $content.image }
-	src: $content.image
+	if: { $section.image }
+	src: $section.image
 	 width.fixed.percent: 100
 	 height.fixed.px: 200
 	fit: cover
 	border-radius.px: 20
 	
+  -- ds.copy-regular: $section.body
+  if: { $section.body }
+
 	-- ds.column:
+  if: { $section.wrapper }
 	align-content: left
 	spacing: $ds.spaces.vertical-gap.medium
-	 content: $content.wrapper
-	
+	content: $section.wrapper
+
 	
 	-- end: ds.column
 
 -- end: ds.section-column
 
 
--- end: content
+-- end: section
