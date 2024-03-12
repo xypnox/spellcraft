@@ -60,56 +60,136 @@ icon: code
 
 -- end: lib.section
 
+-- ds.copy-regular: Spellcraft comes with two page components: [`page`](/docs/components/page) and [`doc-page`](/docs/components/doc-page). `Page` is used for regular pages and `DocPage` is used for documentation pages.
+
 -- lib.section: Page
+
+-- ds.copy-regular: `lib.page` is used to create regular pages. These pages have a table of contents and breadcrumbs which can be turned off by setting them to false as shown below.
+
+-- lib.code-preview: Preview
+icon: globe
+height.fixed.px: 500
+
+-- lib.page: Page
+breadcrumb: false
+sidebar: false
+	 -- ds.copy-regular: This is the content of the page.
+-- end: lib.page
+
+-- end: lib.code-preview
+
+-- end: lib.section
+
+-- lib.section: Doc Page
+
+-- ds.copy-regular: `lib.doc-page` is used to create documentation pages. These have a table of contents and a breadcrumb. Additionally a cover image can be passed.
+
+-- lib.code-preview: Doc Page
+icon: google-chrome-logo
+height.fixed.px: 500
+
+
+-- lib.doc-page: Quickstart 2.0
+image: $assets.files.assets.sampleImage.png
+
+-- lib.section: Installation
+
+You can clone the theme template and run your site locally or build and manage your site with [fastn](https://fastn.com).
+
+-- lib.tip: It is recommended that you use [fifthtry](https://fifthtry.com) to host your site.
+
+-- end: lib.section
+
+
+
+-- lib.section: Structure
 
 -- ds.copy-regular:
 
-Spellcraft comes with two page components: [`page`](/docs/components/page) and [`doc-page`](/docs/components/doc-page). `Page` is used for regular pages and `DocPage` is used for documentation pages.
+The structure of the website is defined in `FASTN.ftd` as `--fastn.sitemap:`. The Sitemap is also used to show the table of contents.
+-- end: lib.section
 
--- lib.code: Code
+-- end: lib.doc-page
 
-\-- lib.page: Page
-
-\-- ds.copy-regular: This is the content of the page
-
-\-- end: lib.page
-
--- end: lib.code
+-- end: lib.code-preview
 
 -- end: lib.section
 
 -- lib.section: Content Section
--- ds.copy-regular: Content Section is used to create sections in the page. It is used to create the structure of the page.
+-- ds.copy-regular: `lib.section` is used to create sections in the page.
+
+-- lib.code-preview: Preview
+icon: globe
+
+-- lib.section: An example content section
+image: $assets.files.assets.sampleImage.png
+
+	-- ds.copy-regular:
+	
+	Here's an example of a section with some text and an image:
+	
+-- end: lib.section
+
+-- end: lib.code-preview
 
 -- end: lib.section
 
 -- lib.section: Code
 
--- ds.copy-regular: Code is used to display code in the page.
+-- ds.copy-regular: `lib.code` is used to display code blocks in the page.
+
+-- lib.code: Code block 
+lang: ftd
+icon: code
+
+\-- lib.code: Code block 
+lang: ftd
+icon: code-block
+
+-- end: lib.code
+
+-- ds.copy-regular: Additionally, `lib.code-preview` is used to display code in the page.
+
+-- lib.code-preview: Code block
+icon: code
+
+-- lib.heading: Some Heading!
+
+-- end: lib.code-preview
+
 
 -- end: lib.section
 
 -- lib.section: Annotations
 
--- ds.copy-regular: Annotations are used to display annotations in the page.
+-- ds.copy-regular: Specific Annotations are used to display annotations in the page.
 
--- end: lib.section
+-- lib.info: This is a info, you can listen or ignore this!
 
--- lib.section: Buttons
+-- lib.note: This is a note, take care about this!
 
--- ds.copy-regular: Buttons are used to display buttons in the page.
+-- lib.tip: This is a tip, it might help you!
+
+-- lib.warning: This is a warning, you better take care about this!
+
+-- lib.danger: This is a warning, you better take care about this!
 
 -- end: lib.section
 
 -- lib.section: Images
 
--- ds.copy-regular: Images are used to display images in the page.
+-- ds.copy-regular: `ftd.image` is used to display images in the page.
+
+-- ftd.image:
+src: $assets.files.assets.sampleImage.png
+width: fill-container
+height:auto
 
 -- end: lib.section
 
 -- lib.section: Videos
 
--- ds.copy-regular: Videos are used to display videos in the page.
+-- ds.copy-regular: `lib.video` is used to embed videos in the page. Any iframe embed url will work for example https://www.youtube.com/embed/tgbNymZ7vqY.
 
 -- lib.video: https://www.youtube.com/embed/tgbNymZ7vqY
 
