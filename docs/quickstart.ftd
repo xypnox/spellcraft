@@ -78,4 +78,41 @@ Spellcraft comes with two page components: [`page`](/docs/components/page) and [
 
 -- end: lib.section
 
+-- lib.section: Content Section
+-- ds.copy-regular: Content Section is used to create sections in the page. It is used to create the structure of the page.
+
+-- end: lib.section
+
+-- lib.section: Code
+
+-- ds.copy-regular: Code is used to display code in the page.
+
+-- end: lib.section
+
+-- lib.section: Annotations
+
+-- ds.copy-regular: Annotations are used to display annotations in the page.
+
+-- end: lib.section
+
+-- lib.section: Buttons
+
+-- ds.copy-regular: Buttons are used to display buttons in the page.
+
+-- end: lib.section
+
+-- lib.section: Images
+
+-- ds.copy-regular: Images are used to display images in the page.
+
+-- end: lib.section
+
+-- lib.section: Videos
+
+-- ds.copy-regular: Videos are used to display videos in the page.
+
+-- lib.video: https://www.youtube.com/embed/tgbNymZ7vqY
+
+-- end: lib.section
+
 -- end: lib.doc-page

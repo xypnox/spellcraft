@@ -110,6 +110,11 @@
       "checksum": "F56C2C7C03A5CCA8FD0F4FE7BF77FAFBB3E8AAA651C90352208A5EE5E4EA9AB5",
       "size": 1073
     },
+    "components/embed.ftd": {
+      "name": "components/embed.ftd",
+      "checksum": "7A4BBEB93BF634F6D70FB78F4C60F9198721155F6B6E1F5A298945BE71FEC48E",
+      "size": 298
+    },
     "components/header.ftd": {
       "name": "components/header.ftd",
       "checksum": "DA687222C8991E10D6354020195A758B63C9936E2F34C995C54AFDC0826C9B6B",
@@ -187,8 +192,8 @@
     },
     "docs/quickstart.ftd": {
       "name": "docs/quickstart.ftd",
-      "checksum": "CF0FAD9142A8B51342A58585C3DE2E3AAC549A15CF8A0BD94697C9DCF28DEF58",
-      "size": 2070
+      "checksum": "7C1DC34722B8309EA7E6C15CE9746DA47635984A75CCF7DD56ECB8DD864B1D35",
+      "size": 2881
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -207,8 +212,8 @@
     },
     "lib.ftd": {
       "name": "lib.ftd",
-      "checksum": "FE4046B204AFEBD0BE52E9D76DD17181B401D0F36117E65922FD6CC014ADECEE",
-      "size": 708
+      "checksum": "629C96EB105DD376E1F4DE6D43C448098396BC5D2A1D7F43111639747AE05FDD",
+      "size": 784
     },
     "reference.ftd": {
       "name": "reference.ftd",
@@ -227,5 +232,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-  "checksum": "EC59150B13EF97A93398363086D3EE3B98C6B645960167069345E3CF8D9201DC"
+  "checksum": "7050901F3D4A3FEF7578570B5973167C1495E99D59A19FAFE97505C6E15AF857"
 }

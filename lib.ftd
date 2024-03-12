@@ -21,3 +21,6 @@ export: heading
 
 -- import: xypnox.github.io/spellcraft/components/code as _
 export: code, code-preview
+
+-- import: xypnox.github.io/spellcraft/components/embed as _
+export: video

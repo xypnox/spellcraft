@@ -1,0 +1,14 @@
+-- component video:
+caption or body src:
+
+-- ftd.iframe:
+src: $video.src
+;; Optimal height for the video is 523px
+max-height.fixed.px: 523
+max-height.fixed.px if { ftd.device == "mobile" }: 300
+min-height.fixed.px: 300
+height.fixed.px: 523
+width: fill-container
+margin-bottom.px: 32
+
+-- end: video
