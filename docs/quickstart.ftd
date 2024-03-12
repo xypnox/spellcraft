@@ -10,4 +10,60 @@ You can clone the theme template and run your site locally or build and manage y
 
 -- lib.tip: It is recommended that you use [fifthtry](https://fifthtry.com) to host your site.
 
+
+-- lib.heading: Structure
+
+-- ds.copy-regular:
+
+The structure of the website is defined in `FASTN.ftd`:
+
+-- lib.code: Code
+icon: code
+
+\-- fastn.sitemap:
+;; Sitemap is also used to show the table of contents.
+
+# Docs: /docs
+
+- Getting started: /docs
+  - Quickstart: /docs/quickstart
+  - Fifthtry: /docs/fifthtry
+
+- Components:
+  - Page: /docs/components/page
+  - DocPage: /docs/components/doc-page
+  - Content Section: /docs/components/section
+  - Code: /docs/components/code
+  - Annotations: /docs/components/annotations
+  - Buttons: /docs/components/buttons
+
+- Overview:
+
+# Example: /api-docs/getting-started
+
+- Getting started: /api-docs/getting-started
+  - Quickstart:
+  - Development:
+  - Development:
+    - react:
+    - NodJs:
+    - Java:
+
+- Large Page with Large Title: /api-docs/large-doc
+
+# Contribute: /contributing/guide
+
+- Github: /contributing/github
+- Code of Conduct: /contributing/code-of-conduct
+
+-- end: lib.code
+
+-- lib.heading: Page
+
+-- ds.copy-regular:
+
+Spellcraft comes with two page components: [`page`](/docs/components/page) and [`doc-page`](/docs/components/doc-page). `Page` is used for regular pages and `DocPage` is used for documentation pages.
+
+
+
 -- end: lib.doc-page

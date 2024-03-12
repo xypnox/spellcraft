@@ -182,8 +182,8 @@
     },
     "docs/quickstart.ftd": {
       "name": "docs/quickstart.ftd",
-      "checksum": "874D3AC6DB62BB35F8C8710060301342F9A700CE34A22B2746E213F828AEF84F",
-      "size": 382
+      "checksum": "B7EC33814E3CEF1DC84155B450A1DE1299311FAA780BE309D4C70039A0A91F5B",
+      "size": 1561
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -222,5 +222,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-  "checksum": "B2783AF2AF3661B398A2926B40C805AA6239D7A93B0C304E301BA0167BEE8EE5"
+  "checksum": "DE87AA8F117F4AB6AD9B69A99F2AF96A1E384D99DBDF18EEECF6D706055FF466"
 }
