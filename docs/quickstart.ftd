@@ -68,6 +68,12 @@ Spellcraft comes with two page components: [`page`](/docs/components/page) and [
 
 -- lib.code: Code
 
+\-- lib.page: Page
+
+\-- ds.copy-regular: This is the content of the page
+
+\-- end: lib.page
+
 -- end: lib.code
 
 -- end: lib.section
